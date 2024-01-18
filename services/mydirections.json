@@ -1,1 +1,2524 @@
-Remove this text and paste your JSON results from the Directions API
+{
+   "geocoded_waypoints" : 
+   [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJm_g_ke9Bao4Rbi70QsbuKa4",
+         "types" : 
+         [
+            "establishment",
+            "natural_feature"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJDTu0YqOZP44RfCBhItjsoxY",
+         "types" : 
+         [
+            "establishment",
+            "point_of_interest"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJRzLGRWO9QI4RVH16hhrfl24",
+         "types" : 
+         [
+            "locality",
+            "political"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJhSUkuaeZP44RsnyqrDPebeA",
+         "types" : 
+         [
+            "establishment",
+            "museum",
+            "point_of_interest",
+            "tourist_attraction"
+         ]
+      }
+   ],
+   "routes" : 
+   [
+      {
+         "bounds" : 
+         {
+            "northeast" : 
+            {
+               "lat" : 5.783571999999999,
+               "lng" : -73.0746678
+            },
+            "southwest" : 
+            {
+               "lat" : 4.5981508,
+               "lng" : -74.59553819999999
+            }
+         },
+         "copyrights" : "Map data ©2024",
+         "legs" : 
+         [
+            {
+               "distance" : 
+               {
+                  "text" : "203 km",
+                  "value" : 203114
+               },
+               "duration" : 
+               {
+                  "text" : "3 hours 25 mins",
+                  "value" : 12276
+               },
+               "end_address" : "Cra. 2a #Cl. 18, Bogotá, Colombia",
+               "end_location" : 
+               {
+                  "lat" : 4.6016705,
+                  "lng" : -74.06770510000001
+               },
+               "start_address" : "Pantano de Vargas, Paipa, Boyaca, Colombia",
+               "start_location" : 
+               {
+                  "lat" : 5.7373562,
+                  "lng" : -73.0746678
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "8.1 km",
+                        "value" : 8081
+                     },
+                     "duration" : 
+                     {
+                        "text" : "14 mins",
+                        "value" : 856
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 5.7649658,
+                        "lng" : -73.1108907
+                     },
+                     "html_instructions" : "Head \u003cb\u003esouthwest\u003c/b\u003e on \u003cb\u003eTunja - Sogamoso\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "oq_b@tk_}L@?HHb@\\JJFFFFJN@@L\\\\~@x@vBLZFVDPDRr@|Db@xBpAjHVtAp@bEp@`FJz@XrBf@nDFb@Jr@h@|CHb@PbAZhBH`@bAbGD^@L?HADAFCFEFCDEBOFE@c@Nw@RUDA?IBG@I@E?G@I?GAUECAYEG?EAI?G?G?C@C?GDGBGDEBQJA?OHYDE?MDCBEDA?ABCDABAD?@?D@B?@@@?@BB@BBBJH?@\\RFDRNBBRP@@FDZd@j@~@RXTJb@Pr@TJF@@DDLJDFVXHHNNFFPN\\TRRFJDHDJBFBN@FBLBH?@FVFXDLBLBP@J@J?F?JAFERABYx@M\\ENAD@n@?Z?BABA@?@EDGBA?A@A?E?CAC?AACAAAGCGKCIEOAOAEG_@AAEOEGCECCACCAECCACAGAIA_@EQCIACAMEKGGEQMAEEGKQACCEIEGCICICIAIAKCIAIAm@Im@GI@KBGDGFABAB?@?@?@@LJZZbAJXt@~ABHBNBHBP@N@V?b@@J@ZCZANEVEPGPQ\\Yz@QXIHEFGDGBQDK?QBm@LSFGFIFMLABUZWZIJKN[b@SXk@n@UPcAf@a@Lo@\\c@VeBdASLURILUl@Kb@Ur@CHWt@OXIHMFQFiAPYFUBSF_@DS@K?g@CMGKGQKA?YMQEQAS@]Ba@BYAWMEAUEM?I@i@TWPgB~@k@^MNMRA@O^O`@K`@ELGRINIJOTCFqAzBILELETC^AR?N?HI|@AVIn@_@v@GXGh@AFGNEDA@EFC@E@GBC?C?]BQ@g@?WEUEOGQMk@k@u@i@WMSKUIWIUAI@I@A@{@\\UJUFiBRYFA?]@E?I?ICMGAAYSYWOIMGGAE?SAY?E?W@QBSBSDGDEBEFCDCFAFAD@F?HBFDLDTJ^d@dBLh@DP?VA\\E\\I\\CFEFGDE@EBE@C@C?E@EAI?GAMA_AOa@Gy@MKAc@EyAMe@Ce@Ia@KKAMAK?O?K?O?QCICGACCAAMKIECACAEAE?E?E@C@ABA?A@CDEFCF?D?BAB?@?P@H?B?J@P?@?H@LAF?B?H?DAJ?BCNAB?BCDKJONs@b@C@YLEBIBO@G@MASAA?u@AI?G?GAGCGAECIEEGGMIe@IMEEECA?CACAC?C?C?A?C@A?C@A@CBEDADADAD?D?B@@@F@B@BBDNPRXDFBFDHBDBHDHDJXn@BD@D@H@HAD?FADEFCDQJKDO@{CNY@aCRm@L_@H[LWLA@WRUXWd@Sb@IRAHAj@?p@?nAEdAIjAId@EXAFI\\ABCFEHGFC@EDGBK@I@I?I?I?GAICIAIE{@]OIQGk@S_@KQAQ@M@SDIBUJMDQJGBULQJMDGBWFC?K@QC_AA}@AeDIC?g@ASCOCoAYSGMCC?SEIASCM??AS?O?W@K@[DOBODKBGBEBIDKFQL]TeAt@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 5.7373562,
+                        "lng" : -73.0746678
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.2 km",
+                        "value" : 1213
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 127
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 5.772857699999999,
+                        "lng" : -73.1085681
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "a~db@`nf}L]g@c@k@aAiAc@a@g@a@WUQWS]MWCEKUQm@YeAe@iBYiAK_@IWKSISKOKMMMQK_@S[SOKWKSESCUAO?Y@W@S@QDKDYJGDEBGBEDIFIHIFGFIHEFIHGFGFIFGFIHMHIHIFIFEDEDGBEBIBGBODK@OB_@Do@D_@@_@?G@S?[BQ@O@M@MBQBMBI@IBEBIFGDIDKHGFIFGFEDEBGDEDKDQLWR_@R"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 5.7649658,
+                        "lng" : -73.1108907
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.8 km",
+                        "value" : 760
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 82
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 5.779052999999999,
+                        "lng" : -73.11096259999999
+                     },
+                     "html_instructions" : "Continue straight onto \u003cb\u003eCl. 33\u003c/b\u003e",
+                     "maneuver" : "straight",
+                     "polyline" : 
+                     {
+                        "points" : "kofb@p_f}L}@f@WT]Tc@Z]TWNk@\\a@TSLQJQLQLMJA@SNUPQJWLQHMDMDUFQBMB[DYDi@HQBSBYD]DWBu@D[AY?WCQ?OAK?K?M?Q@QBUFO@QBQ@A?K@I@ODG@UFk@Le@H"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 5.772857699999999,
+                        "lng" : -73.1085681
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "19 m",
+                        "value" : 19
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 7
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 5.779036899999999,
+                        "lng" : -73.110795
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eCra. 19\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "avgb@nnf}LDW?CAA?AA?"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 5.779052999999999,
+                        "lng" : -73.11096259999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "63 m",
+                        "value" : 63
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 13
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 5.7786475,
+                        "lng" : -73.1103885
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eBriceño - Tunja - Sogamoso\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eRoute 55\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "_vgb@nmf}LN[DEBEFGFGb@Y"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 5.779036899999999,
+                        "lng" : -73.110795
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "2.2 km",
+                        "value" : 2190
+                     },
+                     "duration" : 
+                     {
+                        "text" : "4 mins",
+                        "value" : 254
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 5.779800499999999,
+                        "lng" : -73.125923
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e4th\u003c/b\u003e exit and stay on \u003cb\u003eBriceño - Tunja - Sogamoso\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eRoute 55\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow Briceño - Tunja - Sogamoso\u003c/div\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : 
+                     {
+                        "points" : "qsgb@|jf}LD?F?BADADCBCBCBC@EBE?E@E?E?EAEAGCEACCEECCCEAECEAE?E?E?G?C@E@A@A@CBCBCBCDABAF?BAD?B@B?D@B?B@DKb@Qb@[l@_@r@gAfCg@lAw@nBy@nB_@t@QZKPONSRCBSPMHOHOHQHODQFiCx@KDIDMDWNOJIF?@IFIJMPGJABGLGNIRELCJCLGt@OjBEf@G`AKnAWrAObBMbBBVBNBNBR@@@LBNBNDNJZFRbBbDT`@lBtDR^^t@LTP`@Zl@Vj@Xh@LX\\v@Zv@Rd@Pd@Zl@Zl@P^HRFJDFN^R^JRVh@Vf@Lb@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 5.7786475,
+                        "lng" : -73.1103885
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "40.8 km",
+                        "value" : 40807
+                     },
+                     "duration" : 
+                     {
+                        "text" : "34 mins",
+                        "value" : 2055
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 5.5296729,
+                        "lng" : -73.34452999999999
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e2nd\u003c/b\u003e exit onto \u003cb\u003eBriceño - Tunja - Sogamoso\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eAv. De Los Libertadores\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow Briceño - Tunja - Sogamoso\u003c/div\u003e\u003cdiv style=\"font-size:0.9em\"\u003eToll road\u003c/div\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : 
+                     {
+                        "points" : "wzgb@~ki}LCDCFCDAF?F?F?FBD@FBDBDDDDBDBFBF@F?F?d@h@j@hAN`@`@nA@Db@tAtAlHHb@nApGXvAf@~BZfBVlAj@hBbD|IfBfE|AjDzBrF|FnMN^P\\P^vB|ElClGP`@fAfCN^p@~AN^`@~@dCdG`B`E`@~@N^|AnDf@rAh@xBDZBTXnBHf@BJHZFNFJtAzCXr@Rf@DJZz@l@jBhAzCx@vAZh@Zf@@@BFNPhAtA~@|@b@`@x@v@^\\lChCXVl@l@ZXfAdAd@b@XXNNZVd@`@nAfAt@v@`AvAv@lAT\\RZ|BlDhBtCTZRZ|@xAT\\RZT\\rAtBRZNTfCzDz@rAR\\lAlB`A~AzAdCTf@Zr@fA|Cn@dAf@b@r@p@XVjAlAd@n@RVp@hAb@p@jAdBHLp@lAn@jA`@~@BHJVTr@DLJ`@Nb@Z`BN~@V~BDz@@NFbC@nBJ`I@fABjB@jBBfA?B?^BpC?b@@fA@b@@fA@|A?b@?j@BbBRhK@jA@|@LpBDb@@NBRD\\Nv@d@zBZlAXx@j@tA^v@lB|CLRPTHJ`@f@hBlBRTX\\VZX`@Zj@Zl@PZh@z@HNRRBBPLHHFD\\TZRLHNJ\\RFFXRRNFFLFLLNNJJJJLN`BbBDDj@l@TV`@b@XXRRJLf@j@\\^BBBDNLNPXXDDLLHJ@@RR@BJHLNJLJLVXDDPRXXJLXXZ\\x@|@ZXZ^t@t@r@v@@?hAdAz@r@XTLJJDRLDBxD`CrErCr@d@f@ZVNh@b@FDRRRP|@`ANPPTRXLVLPLTP`@JTJXLV@DFNDNPf@LZh@`BNb@BLN^Nf@Vx@L\\@DHTBHJ^\\bAL`@JVBFJVvAvELZh@`BL`@L^rEpNJZHTl@jBXz@b@pAVt@fBlF`@pARr@XxAXzBDVFZPp@N^LR\\l@`@p@f@t@n@|ADLLXBJp@pBx@hClAtDHRTp@`@dADJh@pA`@v@h@|@BDn@`ALNHJVX\\`@p@p@vAlA~AhA~@j@ZTxAz@\\TZRtCdBnAv@vAx@TNFB\\PNHNFLFp@VVHPDf@Jf@Fj@Db@B~BHTBb@Bv@Jv@Px@Vn@XpAr@~AbAPJpBlA\\R\\RZR\\R\\R\\R\\RXPB@\\T\\RZR\\R\\TzA~@XPZV`@\\`@^\\\\`@f@^f@`@r@\\r@`@~@Tv@X|@d@dB@BL`@nArEb@zAXbAJ`@X`ADLz@zCz@|Cj@zBHd@Fd@Ht@JhABXDXHZFXTl@P^z@zAJT\\r@N\\Rn@XdA~AxFjAfE\\lAL^Pb@Zj@RZX`@XXTRTRb@XTNx@^t@Vn@L`ALt@Db@@L?x@CHA|BMzAIv@Ej@AjABd@Df@Hv@Pb@JvSlE~EdAfATx@Vz@Zr@Zj@Xf@VdE|BdAl@v@b@b@ZHFPNfBbBXV\\X@@TLPJb@T|Ab@pAb@\\Lh@TfB~@zAv@zAz@v@b@l@`@b@^^^b@h@X`@^n@Xp@Tn@Pl@Nr@Hl@bAxIp@tFZtCBZ`A|HDb@LdAHr@h@tEZlCJp@Jl@H\\Ln@Lb@J\\`@bANZJTHNPZBFLPHLr@`Ad@h@NLx@r@`@\\hItGlB|AZTvBdBtAjAh@`@HDZT@?\\Pr@\\^NHBRFLBr@NRDTDP@bE^h@H`@Jv@RdBb@XF^DRBr@BtDG^?`@@L?t@DL@pCRf@DZ@r@@p@?fBCtEGrEItCE\\@pABx@B|@H~@J`AJr@FhBPrBPbJx@`@Db@B`@DvALv@JVBVFVDVHd@RNFVNRLLH^Zb@`@`@^`BzAz@x@hAfAjBdBXZ~EpExAtAf@d@rCfCl@j@bCjCRPhClCdAfANNNN`AbAjAnAl@r@~@hAJJ`BhBd@f@PRrCvCpAvANPbCjCxA~AHHLNNRJJLPLPHLFHHL|@fB\\h@@@NTRTJJJJd@^LF\\RhAn@NH\\VFFHH^\\~AdBVTNLTRJHDB^RTH@@VHXHnARzDZnAH`@BJ@nDVdCNvDT@?pDThBHdBJbBNbAP~@Nx@XLD`A\\x@`@p@b@v@f@VTTP|@|@zAbB~@dAjEnFjGhHdD|DnIxJTZdAlAX\\xPbS|@fA\\d@^b@Zh@|@vAJRxClF^n@BD\\r@Z|@^hAd@vAJXLVT\\dBfBl@t@TXTV|ElIhAnBh@x@f@r@X\\d@l@r@r@|@x@fJdIbHhGzArA~@z@XVjB|Aj@j@VTv@v@V^TVNT\\h@HLFP^t@b@hAL^N^N`@jA`D?@zA`E?@zA`Ev@nBtDbKVt@~A`EtArDn@jABDz@dAt@j@B@PL`@PjAd@|Bt@dCv@xBr@pA^VHd@Jx@R`@Jh@J^F@@b@FH@\\Fb@Dr@FJ@b@BD@\\?b@@~A@tD?fBCz@Ch@C`BMdAOh@K`@Id@Kp@Qz@Yn@UPI\\On@YlBiATMpBiAXOZQTM^SvCaB~A}@bDkBdAk@zAo@lBq@v@SRGZGn@MXEVEHAb@EXAJAr@E~@?^?R?R?j@@v@BdAJx@NPD`@FPDn@Ll@NrBt@`FlBTHbE|AtEdBf@Tb@Pl@Tj@RxBx@`@NTJPFPFNFPFnEbBpChAfA`@hCbApBr@rHrC^N^NlG`CPJbBf@`@LB@t@N`@F^FTBVBH?h@Dv@@fA?F?bCCf@Ab@AhACdBCzACrA?j@@b@@d@@x@H|@FRB`@FbALfAT`ATxA`@rAd@b@R|E|AvGfCfFlB`Cz@`EtAdA^zDvA`Bl@dBj@^NTFjCp@nATbANlANvD\\zCVlK|@lHn@nBPl@Jj@JXFVFn@Rh@Ln@JRDRB^@@?V?j@@~@AdAAB?l@A~@Dn@BzALb@BhCT~Ff@TBlIp@b@DrOpAnAJZB`@DbCTH@b@Dl@HrAR~AXbB^r@Pz@XhA^z@\\f@PtAn@d@T\\PRLt@`@~@l@JFx@f@l@^nEpC`CxA@@dHpEZT\\R\\TZRp@`@HFZTvO~JDDDBHDFDTLXP`@T`@VpBlA~A`ALH`@V"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 5.779800499999999,
+                        "lng" : -73.125923
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.9 km",
+                        "value" : 1919
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 126
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 5.5151442,
+                        "lng" : -73.3535358
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eVillapinzon-Tunja\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eRoute 55B\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "m_w`@hbt~Lh@^^TPJjC~AdF|CjAv@xClBp@`@ZT\\R\\RvA~@\\Rl@^h@\\ZT\\RRLd@Z\\R\\TZPf@\\h@b@BBVX@@j@n@j@p@|@~@XVXRNJDBB@PHZLb@Lp@Nz@Np@Nf@Jd@Hd@N`@LnCx@^LfA^RFNF~Af@fAXjBh@dA`@dA\\\\N^Rb@Zv@p@PNBB^VXR"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 5.5296729,
+                        "lng" : -73.34452999999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "93.7 km",
+                        "value" : 93707
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 hour 18 mins",
+                        "value" : 4673
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.9827784,
+                        "lng" : -73.88360039999999
+                     },
+                     "html_instructions" : "Continue straight onto \u003cb\u003eBriceño - Tunja - Sogamoso\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eVillapinzon-Tunja\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eRoute 55B\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow Briceño - Tunja - Sogamoso\u003c/div\u003e\u003cdiv style=\"font-size:0.9em\"\u003eToll road\u003c/div\u003e",
+                     "maneuver" : "straight",
+                     "polyline" : 
+                     {
+                        "points" : "sdt`@rzu~LRHXH`@PXHr@Zr@f@dAl@XTVXJHNPn@x@LLlAlBXb@@@RZRZdEtHhClEfB|CLTdGdKP\\@?vBvDb@x@R\\r@jAFLR\\HNHLn@hAh@v@z@hARVPNJJHJ~@|@b@Z^\\^VjAt@z@d@x@^tAj@nCbAj@Rz@`@vAbAJJJJHLRVJJ\\l@FHXd@Xr@Ld@Tt@R`ANjA@HJl@Lt@BDRr@N`@R^^l@X\\PR^^ZTb@Rr@V^N`@L^LjDlAx@b@nBpAf@`@VTx@jAHL`A`BTf@R\\P^vDtHP^vKnTv@xAlAtBv@~@BBv@v@h@d@|@n@zF|Df@^j@j@PP~CzCv@t@dDnC`@d@BBpDpEHHRTXTVNb@TF@~@`@LDn@TB@r@XTLZVZV\\^T\\T`@LTN`@BNDRHf@Dd@@V?PCd@?BEj@OdAGVI^Oj@MVCFWl@EFILSVMLIHONYRa@VA?_@NC@g@NQFWBo@F[@w@AmAI}BMoB?U@Y@U@_@Dg@H[FSBaAV{Al@uAr@cAr@e@`@STm@x@AB}@xAa@z@Sn@Sr@GZa@`C_@xBKp@ABUv@OZg@z@}BhC{B~Bi@r@KNg@v@EROd@?@O`ACt@?J?f@NzALh@HXNXJTX`@TTf@d@VRRLtCfAtDrAPDRB`ALh@@H?l@?v@CXEvBUr@Ef@Cl@@j@D^Dp@TVHFD\\R\\RJFPJZTRNFFXVRPt@l@l@^f@V|@^|@Xj@L\\Dl@F~@Dx@?n@ABA\\CZEVCVEjB]\\Gf@KXCf@GX?Z?\\@r@FF@TB\\FhAVjCn@fEfAtEhAb@J~@Td@Jv@HtALnBD|A?Z@lA?tA@^?jABvBBx@Db@@Z@F?T@n@Dx@Lh@L`@Pr@b@f@b@NNBDFHHLVb@\\v@Np@LzARxA^jA\\r@\\j@R\\f@v@vDnGrBbDrBhCVX?@j@p@pCzDnAvAzA~AjAlAXXd@f@b@d@PRNNLPT\\NRVd@PXl@v@\\ZVV@@XVFDRJ@@TNFBJBTD^Nb@P^JnBJvCJt@N@?|@Rb@T\\RDBRP^\\RVVXVXRVBBj@h@n@f@b@Tx@Xj@LbBJxDM|AEd@@`ANLDx@T|@`@f@d@PTVX@@RZBDVp@Pv@BTHb@F`@PvALd@F`@HZN^P^TXDDXXz@|@V^R^N\\JXFTDVD^BX@X?J@V?d@?vC?hA@P?^D\\J\\HVNTj@r@^V^NrAVpATZFTJf@ZRTLXPj@D^Ax@Eb@Il@Ij@SvA?T?D@Z@@@PBRNf@Th@\\r@NVNV^j@XTTLz@l@f@N|@N|Bd@\\FhHlB\\T^VVX@@j@t@f@z@h@x@`@l@l@hAPTVV`At@rAp@f@TfAh@~A~@vBxAvBrAx@h@jBlAdElCx@f@d@\\l@f@b@d@PXDJDHHLVx@Jj@DZ?V@T@d@@~ADz@B`@FZFTFXJXNZFP@@JPRXRV^\\v@p@b@^\\^TXNTFLJVHTDR@BvAvJPrAF^FZLb@DNJVLVZj@TXZ\\b@\\@@\\RTLt@\\f@PHD`@L`DjA`@L|EdBnGvB|Bl@z@NH@b@Hh@J|@JtBT`CRb@DdFd@fF^b@DpLbArHl@~BNdAN^H^JXJRHLHp@`@`@^RTNR^r@j@rAJZx@tBj@hAjA`A\\V`@TTHPFx@Vx@RXJpAf@r@\\VNVRHHPPp@z@r@|@h@x@lAjBp@jAl@|A\\z@b@hAt@|BjApDb@nAJVNVTZVZ^^`@\\TRxD`DPNLPJPR\\Vj@Xv@BHf@nAjC~GJ\\Z~@ZhBJfBBnAVvENnCB`@?@TfCD\\FXHTp@|AtBrD`@|@l@xANf@Nh@FXJf@h@xCNpAJr@Hf@BHFVDHDLL^P`@f@r@TRVTBBPJFDNJLFZNj@NTHB?`@HNBdBZrBr@xBrAx@f@JFdAr@DBdBrAr@n@|@~@p@v@jA|AdBnBr@v@hBhBX`@\\`@|B`BfBnAdAx@RPXVDBVXj@n@TXNRTXp@bA`@t@P\\b@bARf@FRDJNd@Lb@J`@P|@Jh@Hj@LpA?@Dp@DzA@xAEjBGrBCnAEbBEjBGjBEr@?PI`D?@EjB?^?@?@@ZBf@Fh@H^Lb@Rj@Zr@l@x@p@l@l@d@~BxAl@^fAp@\\R`BdA`F`DlGzDr@`@~EtCvKnGzDdCl@`@h@^~@v@`@\\x@n@HFHFp@`@n@VjA^bA^^Nb@R|EnChAp@n@^^TrAbAlAbAz@z@b@b@b@h@NNj@x@d@r@n@`ArArBVf@dC~DxBpDb@r@b@v@R\\R\\r@lAxA`CR\\lB|CjAlBpDbGRZ`FfI`@l@Td@HNBFFPPf@HVDXDTBXFz@?@?P@fA@b@?L@TDnB@bA@j@@J@V@V@JD\\Hr@Tx@x@zCJ`@l@zBpArET~@d@dB\\nAJZ@FxBbId@zANh@Vx@J`@J\\FPZr@Th@PZJPHJPVTZn@p@^\\rA|@B@l@ZhAp@`B~@j@ZtAv@hAn@PJ\\R`@RvCbBVP\\T@Bd@\\f@f@j@l@b@\\?@@?DDrAv@VJTH?@@?F@p@N`@HTDr@RZJ^RrBlANFPLlElCNJlA|@dAz@zAzAvAjBxAvBTZnAlB\\n@Zp@|@tBf@xATrADbA@R@\\@h@AtDBfAPbAVv@Vp@h@hAv@rAhCxDtCvDfBzBjChDhBtBb@\\VN\\RTLTH@@NDND@?\\H`@HxBVxAPRDVFf@NZNn@\\XPxAhAnCtBd@Z`ChBPJz@l@@??@b@TnAv@PJRJpAz@RPJH\\Tb@XbAl@HFp@^fAp@PJd@X`An@vB`BvBlCTZxAnBJLb@h@TXHJ\\\\vBfBpEjDTRLPTZ\\h@Tf@DHN`@rBrFf@jAb@x@Vb@b@j@hA~@n@^^Px@XJB`@Jx@Th@L~G`BxBh@tDx@ZH`Dx@dAT~@R`@HnCn@dDv@jBd@~Bp@d@P~Ap@B@LH\\R~@j@pA|@JHNJJHZRlCjBhDfCbBrA`A~@j@n@bA~A|@vBf@nBP|@H`@DT@J^hBRbADRNp@Pz@x@fDJ^L`@JTHPHLJNNRXXRNRPVR\\NPHDBZJXHVFPBPBNBP@Z@\\@`@?b@AxAEx@AfACr@?Z?J?f@Dn@JLBJB^NVJVL^TRLNLLJRVPVRZLTdAlB|A`DZj@h@`AFJFNFJHLPVHH\\\\XTLHNHb@R\\LPFLDz@Lp@Dr@Ad@Cl@Gd@IZGhAWhAWv@Ot@GXAd@Cx@FJ@`@F`@L`@Lz@^|@x@f@j@`@n@z@pAX`@z@nAdAzAf@r@hBbCLT`CdDv@bAf@f@JFZVNL~@l@~Ar@rA^|@LnAVdCd@hB^l@L|Cn@n@LhCh@l@LzAZ`@H`@JfB\\p@NrCl@nB^XHF?dAPXFj@DlAJ|ABr@CtBAzBEpAChDEL?T?xA?t@AfACf@A^AfAE`@A@?fBCb@Av@@R?zBBJ?dAA@?h@B^BbAJrCZJBR@dBHf@BfAHxBJV@^@fAFN?R@B?t@BtAFtAHv@DB?vAHN@xBJ|@D\\@v@DlBFnAAzAIv@MB?d@Iz@QrB_@`Dq@B?p@OfHeApAEhABx@BB?X@f@HlARxBd@jAXB@\\HB@ZH@?hEfAjCl@jBd@pCj@PBdANB@^DB@TBhDl@LB~Bn@tAVZDfAJB?fD?V@zAHbDZb@F`AHjALtEf@dAJlD\\@@b@D~CXjBLzBDf@@^@rDBr@?dB@fGJL?jBBD?ZBtAJvBl@tBlArCpBtCnBlA~@x@r@j@f@jCrC`@f@XXzBhCpC~CTT`@`@PLXPB@hAh@lAXvALdA?xAMdB_@pA]~AYFAbAKnASdAUj@ONCbDyAvFeCDA`@IjDu@tBObC?b@?J?jFf@pEp@hBVzEd@|Df@rBXl@HTBfALvAVb@LlAd@f@Vb@Rv@b@RJLFzAx@xAr@RJB?v@Xd@LdAPz@Fj@@\\?JAb@Ah@Ch@GBA\\GHCFAl@OjAc@VMrAq@fAm@rDqBPKJGlBcAn@_@n@Y\\MfA_@PG\\GtB]b@E|AGx@@Z@hADt@HPB`@Fb@D`@Fb@FdALb@FZDD@b@FtC`@r@PNDd@Lv@Xv@Z~@d@n@\\JH\\RJHp@h@j@h@lAjAn@t@VZHJFFp@r@XXJJVXXZVXLL~AdB\\\\t@v@FHbBfBzB`Cp@r@n@t@VZl@t@BBNPRPJJ`@b@TVnDfEz@dAh@t@rBhC|@fA\\d@`AjAjApAv@r@HHl@b@x@h@\\TFD\\Np@`@r@Xn@XhBh@jAXB@dATzAX|AZB@fAT@?jAT|@RpATf@Jj@NzA`@jAZjAZ`Br@PFl@ZhAl@l@^NHz@l@x@r@~@z@l@l@PRDDp@~@z@pAr@nAz@lBZx@LZBD^z@j@~AZr@b@jA|@|Bp@|Af@hAP`@h@|@f@x@^h@lA`BTZZ`@dB`C|AtB@?TZTZj@r@n@x@zAnBhAzAlAnB|@|Al@zAL\\pAhDRj@Xn@fApCz@lBx@xAXl@`A`BfA`Bh@t@BDtA~AlAnAjBdBVXXXHHfA|@PLjA|@nBtA|AbA`C`BZRn@b@|AnA|@t@j@j@VVVVd@d@pAxA|CjEl@x@rApBT\\bCbDnAhB^h@TZ?@l@x@RX~@rAxArB`AvARZDD`BbCX`@T\\\\d@lGbJhCrD|DvFZd@TZ`DrEbCbDvFjGt@x@~CdDtA|AbAdAb@h@^b@bCfCdFrF|DjEVXrBzB~@jAj@x@HNb@|@Xx@FN\\rATnAXzALn@Lt@b@|B\\`BH\\DVDJFTn@tBtA|D`AjCp@nBb@nAFNRn@bAlCJVNXZh@xE~HHNb@r@dAdBjCdEr@jAdAfBHRHTHVN`@^~@L`@L^h@`B\\dA^fAf@pAPd@n@hBj@~A`BvEL`@x@zBb@rAL^f@rAbAfCbJfSd@~@l@pADF`@~@h@dAZv@n@rAd@hA^`AL`@p@tBr@hCX~@pAnE@@^tA\\lA`@xAt@tCJ`@pAdF`AhDL`@h@bBDLDRL^t@nCf@dBf@bBL`@J`@L^@Df@vARh@f@bAl@|@b@l@`@`@XXJJLJZTVR`Al@^NXJDB^L`@N^LFBXF`@JD@ZH`@H`@JRDbCh@`ARND^H^HD@dB^NDlAV~FrAZFNDvAZfCj@tAZpBd@dAThATpAXzD|@tB`@|A\\~A^b@HvHdB|Bj@lAV`B`@RDtBd@jAV~Bf@hAXzB`@~AVdAPpBVv@FF@B?hDV`CHhAD`ADnBFdGNfCNB?`BTn@NrAZbAXlD|@fCr@pA^vDhAdEnA|@TTHxAh@fBx@vA|@tB|@xAl@fBn@^N`@JZJD@dAV~A^n@J\\Fh@HvGbA`@Fb@FVDHBH@`Bf@fA\\dAVz@TbA^PH\\Jb@RLDVN\\Ph@`@l@f@b@`@|@fALPZb@z@jA`AzAfBfCr@fAx@jAJPLRFFNRDH\\d@d@t@NVFHb@l@@@RZX`@PVR\\JNr@dAd@l@fA`BjDdFXb@nAnBRZZb@PZBDb@nAXjAVfAJh@R`ATnADNH`@Hb@RbAHb@H`@PdAVbAL`@L\\b@x@NRJJPPFFNNHFVPXPHBPHLDFBNFF@NFXFf@FTBb@Db@DhBJpAJlBLd@Dv@HdAPf@Hl@Tl@TTFRJPJ\\Rl@^LL`@^HFVXXZRZNZ~@tBNZBD\\dA^dAl@lBHRlAbDDNFNDJN`@Tn@Rb@N^@@PZ?@VZ`@b@`@^TPj@^dAn@`@Vr@b@^ThBdAvBtALHNHVNd@X\\Rh@ZLH^RFDh@Xt@\\v@^dAd@z@^vAn@|@\\@?\\PFDTLVLDDTPBD`@b@Pb@JXLf@DR`@vBJf@P~@BR?@BT@Z?Z?ZA`@Ad@APIbACZEf@AVCb@AJAVCh@Ax@?j@AF@Z?PCnA?H?b@?rAAx@A`AGh@KXGLOX_@b@QVmAxAs@t@o@x@i@~@Yl@GVK`@M`@e@fCKh@]jBMz@Gt@Ez@BtAFbBFpADtAP`EJ`C@HD^DZ@DFZBLJ`@h@xAZ|@Rl@h@rAtAxDVt@Lp@Lp@b@tC`@hA^j@r@hAFJ`@j@Zh@N^P^Xr@\\~@DL`@dABHf@pAZz@h@nATd@PZFJj@z@p@dAl@~@`A~Al@jATf@FL\\n@@D\\p@d@v@V`@RTRTLNFF`@\\RLLHZR@@^NRJPHJDt@Xp@Lj@LD@B?XDF@XD`ANb@Hv@Lp@LHBh@Pb@R`@R\\P@@h@`@|AhA\\R^Rv@^b@P`@J`@Jd@JRBN@`@B@@b@@|AHd@Bf@DVDd@Hj@Nv@\\f@^HHTRVZ^h@Xh@Xv@FRHX@FZjAPf@DHJVVh@t@xA~BtE?@f@|@\\p@h@dAt@rANVzBdEf@`Al@lAl@lATf@`@v@nA~BhBnDj@fA\\r@j@dAtCvFJTp@nAbAnBj@jAPh@Tr@ZbAZtAH`@H`@f@`DF^^xBH`@r@zDfB~Jz@hF`CrNBPBH@D@LDZrBvLH`@DZFVh@dDBLDT~@vFJf@F`@@DJf@Hd@Hf@Hb@DRBPBNBNF^t@lEDX@DFb@Fd@F\\F^Hl@Fd@Jx@J|@LvANrC@b@BVVpFVhF@LH~A`@dIL|BVzFVvEBh@VzF@NLlCLpCTdEFv@JvAX~FLdB@R^|BRz@Tv@z@hDDLJ`@L`@\\lARr@\\dA^~@LZj@hATb@Zl@|@~Av@tABBNXBBrC`F`AbBBBLXzD|GRb@rBnD@B|AnCj@`A@Bd@z@n@fAtA`Cn@fApA`C`@v@bFdKJPfB~CfCrEz@xAd@|@R\\fFfJT`@pDnGP\\R\\r@lAFJVf@LTz@xA`A`BXh@`@p@d@z@FJR\\FJ\\j@T`@R\\LR^l@d@~@`@p@HPf@z@Xf@T^R^P^Xf@f@r@b@n@r@bA^d@`@f@b@b@h@h@XVXXl@d@`@\\p@h@FFXVjA~@lBxArDxCxAhAXRp@h@FDn@h@z@r@nDpCxDdD~ChCrB~APLt@n@|D`DtAhAzExDZVZVPLZVZVj@d@dHvFjMbKjF`EfDpCrJ`I~ApAjElD^Zb@\\nCxBrFnEx@n@|MtKdZ`Vp@h@LJdAx@lCvBnCzBfClBf@`@ZTr@j@^VtHtGx@hAd@x@FNP\\P`@hBvDPb@xAzChAdC^t@`BhDFL~@nBP\\b@~@P\\\\t@DHN\\FJ`@n@l@r@@@VX|@dAxBbCp@t@LNjBrBlBtBzElFDDhCzCTTv@x@|ApAj@`@tA`AtA`AZT\\TtA~@x@h@rBtAx@j@ZRNJl@XVJbA`@PFRB@@`@FPBtALjBDb@@jBDb@@D?|APD@L@PDB?pAZPH^N^P\\Rn@\\JHRPDDr@p@t@|@l@z@Vb@PXj@z@l@bA|@zA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 5.5151442,
+                        "lng" : -73.3535358
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "8.5 km",
+                        "value" : 8530
+                     },
+                     "duration" : 
+                     {
+                        "text" : "7 mins",
+                        "value" : 426
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.9481614,
+                        "lng" : -73.9491841
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eright\u003c/b\u003e to continue on \u003cb\u003eBogotá - Tunja\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eBriceño - Tunja - Sogamoso\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eVia Principal Gachancipa\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow Briceño - Tunja - Sogamoso\u003c/div\u003e",
+                     "maneuver" : "keep-right",
+                     "polyline" : 
+                     {
+                        "points" : "kel]nk}aMd@x@NVrCtE~@|A`BpCtAbCjAlBDFJPt@nA@@hC`Eb@p@\\f@fB|BJJz@~@PPvBvBt@r@l@h@fDrC`BpArGpFv@h@FD\\VHFjCrBd@b@fB~A`A|@TTZZx@|@dA|A@@Xd@^n@d@bAVl@z@jDNn@VbAJ`@Jd@t@xCL`@J`@HX@FHZ^vABJJ`@XbA`@xAb@bBTh@vAbCn@bARXhDfE`CtCDDp@r@`AvAlA~BPZr@rAN\\j@pAFF^f@TXl@h@HFNDdDlBBDVJlAj@zA~@z@p@FDp@l@jA`Ab@`@JHj@b@v@r@NLZVJHNLHHBBLJFFLLBBFFPRFF@@TX@BJNBFPVR\\LTVh@FJh@vAZdAj@bCFd@PfAHn@@@N`@N^^~@r@dCXbAJ`@L`@J`@L`@Lf@HXXbAL`@XdAJ\\V|@JXJ`@@FDNDJBJDNNb@DNFPL`@@D@JFNFRDTHXL`@J`@`@xAh@nB\\pANh@n@~BLh@HXRr@l@zBJ^^xA~@hDTz@fA~DNf@VdAp@fC\\nAHl@Pz@NhAHdA\\|FJ`CLnBLpBBr@Dx@?f@A`@Ct@Ad@CRKlAGh@QdCO~BIjAIx@IfACb@Eb@C^ChAAx@DbANvAb@|AvGrObCdG~@~B`@dA\\x@@B~AzDnB`FZ|@Hj@b@dA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.9827784,
+                        "lng" : -73.88360039999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "13.6 km",
+                        "value" : 13592
+                     },
+                     "duration" : 
+                     {
+                        "text" : "11 mins",
+                        "value" : 633
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.865408,
+                        "lng" : -74.02487900000001
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eBogotá - Tunja\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eLa Caro-Tocancipa\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eRoute 55\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "_me]jejbMbCrFTh@HRt@hBTj@FR\\hAN^P^Pb@x@fBl@nA`AtBdArB~@~Ar@hA`@j@f@l@d@j@fCvC~ArANLVRjA~@dAx@bAt@TRr@j@^\\h@f@NP`@d@^b@X^f@x@Xd@JRHNFNP\\b@fAVt@VhABDP~@DVPnATjCFpB?h@Cl@MtBMdDE|@KzAItAGnAGjAGhBAj@AvC@bABbAJhC`@`IJfB@\\RxDPnDLrCP~D@PRxCPhBHbANzAN|@PpAPhA@FFZHh@PjAHf@H^Ln@Nn@H\\d@bBl@`CNf@BHHVhBxGVz@n@`CJXv@jDdAdDDHHTPb@b@~@h@dAHPR^BDLVZh@nAjBl@|@|@bAhAlAbC~BjAjAJJLLnAlAd@d@|B~Bv@t@`CzBpAfAlA`AZVrBxAvDbClDzBpBjA|Az@tAh@t@RdAXp@JjAND@hCJ`BDXBZFr@JXHlCn@f@JTFVHNBB@PFF@H@LBZHj@Jh@LdATh@LnG~AdP~DhBb@pJ|B`E`AxEjALBp@PtM~CtCt@~C~@tO`GrIhD^NfCbAzHzC`I|CvDzAbDnAf@R^Nd@P~B|@hCbArBv@PHzAp@vBdAv@`@vAx@nBdAjCvAj@ZnCxAhO|H\\R^PfSlKjAv@RJh@ZpGlD`Bz@pAr@vAr@dAj@tAv@n@\\n@b@^VJHNJTR\\Zx@t@tArAlAlA^^\\Z\\ZXRFFb@Zh@\\n@`@j@Xv@\\h@Ph@P~Af@|@RlB\\^HzATxB^`APzAVhATl@LjAT\\HPF~EvA|@VxA`@pBl@JBtGlB`@LVHf@Lv@XRH|@^\\Vf@\\"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.9481614,
+                        "lng" : -73.9491841
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.5 km",
+                        "value" : 1549
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 87
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.8533407,
+                        "lng" : -74.02999919999999
+                     },
+                     "html_instructions" : "Take the exit toward \u003cb\u003eZipaquirá\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eChía\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eBogotá\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eAutopista\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : 
+                     {
+                        "points" : "ygu\\n~xbMzAbBLRb@t@^dA\\fAJZHZZr@NXZb@l@p@h@b@hAn@r@VVJTDRDjCTP@~BPvAPr@FJ@VDj@HlAJlEf@v@F~CZ|ANH@f@D`ABJ@L@pBPz@HnAR~@RjAVl@Lb@Hv@L|@R"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.865408,
+                        "lng" : -74.02487900000001
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "10.4 km",
+                        "value" : 10385
+                     },
+                     "duration" : 
+                     {
+                        "text" : "12 mins",
+                        "value" : 740
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.7612409,
+                        "lng" : -74.0451186
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003eAutopista Nte.\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eBogotá - Chia\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eBogotá - Tunja\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eBogotá ‎-La Caro\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eRoute 45A\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow Autopista Nte./\u003cwbr/\u003eBogotá - Chia/\u003cwbr/\u003eBogotá - Tunja/\u003cwbr/\u003eBogotá ‎-La Caro\u003c/div\u003e",
+                     "maneuver" : "merge",
+                     "polyline" : 
+                     {
+                        "points" : "k|r\\n~ybMd@@B?VD|@JnEb@bHr@~Ir@nBPjF`@fCXv@HvD`@rD\\rAJRBlABx@FD?LBhAH`AHj@FB?f@FfAJZ@t@H~Fh@|CVjBRzBRrALr@FvCVtBPxAL~@LjDXh@F|@H^Fd@DzANn@F`AJ`@D`@BLBR@`@D`@B`@D^D`@B`@D\\BB@`@B`@D`@D`@BNBP@`@DJ@T@^D`@Dn@Dt@JHBp@Hx@F~@VVFb@J`@JpATtBb@h@H|@Nn@J`@F^DbAL@?D?\\DD?tCVv@Hb@DR@Z@n@BtBDxFBRFT?fABb@BvCT|BRjE\\xAHj@BRBNBb@Db@Db@Fb@DL@j@F|APdAJzAL~@JrAJzALbAJJ@VBb@D`@Db@DF?ZDb@D`@Db@DR@nDZzAL`BNxFd@x@HbE^`@DD?xCVx@Fd@BnEd@pGj@~D^TBv@FLBfDZH@fBNvANZBlCV`@Dn@FnCX`@D`@Db@D@?xHt@tBRxCZdAJl@DzANp@FjAJ^@N@vCPpFd@tFf@TB`@DdBNB@p@FhCVrALpFf@zBVpANfAHn@Fp@JTDTBdBTt@Hh@Hp@FhCXN?L@pDNv@DtBJhBNN@b@HL@hAHxBTJ@hALb@DXBVBh@Fj@FlDd@dBT^BpBPl@FtFd@`DVp@FVFTBPBdIj@\\BNBlALPBTBzAN@?@?@?@@@?@?B?@?@?@?@@@?@?@?@?@?@?@@@?@?@?@?@?@@@?B?@?@?@?@?@@@?@?@?@?@?@?@@@?@?@?@?@?@?B@@?@?@?@?@?@?@@@?@?@?@?@?@?@@@?@?@?@?B?@?@@@?@?@?@?@?@@@?@?@?@?@??@@?@?@?@?@@@?@?@?@?@??@@?@?@?@?@@@?b@Fd@Fx@Hz@H|ANhDZnALt@Ft@HH@z@HVBN@lAJ|@Hp@FdBNt@HjCVv@Fp@H"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.8533407,
+                        "lng" : -74.02999919999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.0 km",
+                        "value" : 984
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 104
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.7525412,
+                        "lng" : -74.04660659999999
+                     },
+                     "html_instructions" : "Continue straight onto \u003cb\u003eAutopista Nte.\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eBogotá - Tunja\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow Autopista Nte.\u003c/div\u003e",
+                     "maneuver" : "straight",
+                     "polyline" : 
+                     {
+                        "points" : "w|`\\~||bMr@Hh@Fh@Hh@HLBd@F\\Fd@DhALJ@^B|@JbAL`@Bb@FRB|ARzAPfBTrEd@`@Dz@L`AJTBRBbCXb@Fd@FX@N@V?l@CpAG"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.7612409,
+                        "lng" : -74.0451186
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "5.9 km",
+                        "value" : 5861
+                     },
+                     "duration" : 
+                     {
+                        "text" : "8 mins",
+                        "value" : 472
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.7005327,
+                        "lng" : -74.0550205
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003eAutopista Nte.\u003c/b\u003e",
+                     "maneuver" : "keep-left",
+                     "polyline" : 
+                     {
+                        "points" : "kf_\\hf}bMZCF?H?d@@pARXDXDj@Fh@Ff@Fp@Dp@Dx@@rBBjA@lABp@Dj@Fr@FzD^jAJlALl@FVD`@DxAJhCTrC\\l@DrAJ|@F|@Jr@Ft@H\\B`AJfAJn@FvBTnFf@lCV~BRLBN@v@Hl@FjBPdGj@N?L?N@z@JvEb@tD^tANR@~@JhCVj@Dr@Fr@FvALvANzANtBRtAN|CXV@lAJ~@H~@FZBJ?HBtBTPBtALt@HvCX|@H|@HjALrBR\\BtBR~@J`AJ`AHbAHt@Ft@Dd@DrAJJ@zAPL@nALh@Fj@DjALtALrALlALxAP~APfAJNBn@F`BL`@DnCT~CXrALlAJhCT`AJhBPfBNzBXxALvALxANxAN~@HhGl@d@Dd@DrD^fAFfBPf@Bd@Db@Fl@D|ANb@D`@DzDZ"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.7525412,
+                        "lng" : -74.04660659999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.1 km",
+                        "value" : 1071
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 94
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6910436,
+                        "lng" : -74.05663269999999
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003eAutopista Nte.\u003c/b\u003e",
+                     "maneuver" : "keep-left",
+                     "polyline" : 
+                     {
+                        "points" : "iau[zz~bMpALhAJXB`@BJ?x@Lv@JtALvEd@lCVtALjDZH@L@F@D@J@@@@@@@@@lFb@xAJfDXfCVz@JfBN"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.7005327,
+                        "lng" : -74.0550205
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 112
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 14
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6901233,
+                        "lng" : -74.0570228
+                     },
+                     "html_instructions" : "Take the ramp to \u003cb\u003eAv Calle 100\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eAv NQS\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : 
+                     {
+                        "points" : "_fs[|d_cMNHJDZHhA\\VDNFLF"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6910436,
+                        "lng" : -74.05663269999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.3 km",
+                        "value" : 274
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 29
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.687687599999999,
+                        "lng" : -74.0573203
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eAutopista Nte.\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "g`s[jg_cMjAJnBPH?NBl@Fl@Ft@Fv@HdAG"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6901233,
+                        "lng" : -74.0570228
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.7 km",
+                        "value" : 675
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 81
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6817272,
+                        "lng" : -74.05842969999999
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eright\u003c/b\u003e to stay on \u003cb\u003eAutopista Nte.\u003c/b\u003e",
+                     "maneuver" : "turn-slight-right",
+                     "polyline" : 
+                     {
+                        "points" : "aqr[fi_cMd@BT@L?ZFL@N@N@PBj@FfC\\b@JZDF@PBH@\\HXDN@PBL@P@ZBPAf@HXBhCXRBRBxBRvBTb@Db@DRB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.687687599999999,
+                        "lng" : -74.0573203
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 158
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 17
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6803212,
+                        "lng" : -74.0586551
+                     },
+                     "html_instructions" : "Continue straight to stay on \u003cb\u003eAutopista Nte.\u003c/b\u003e",
+                     "maneuver" : "straight",
+                     "polyline" : 
+                     {
+                        "points" : "ykq[dp_cMlCVbBLF@^D"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6817272,
+                        "lng" : -74.05842969999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.2 km",
+                        "value" : 1162
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 119
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6743467,
+                        "lng" : -74.06700990000002
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eAv. Cdad. de Quito\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eAv NQS\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow Av. Cdad. de Quito\u003c/div\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "_cq[rq_cMRDNDRDRHRH@@vAx@tAv@NLNNLPRZRd@JRTh@PHd@z@Zh@Zh@Zh@t@vAt@xAn@tAj@pAn@pADJh@dAP`@Rf@Xn@LVLVZd@R`@Tf@HN\\x@`@v@Zj@P^BDnAjC"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6803212,
+                        "lng" : -74.0586551
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "3.0 km",
+                        "value" : 3040
+                     },
+                     "duration" : 
+                     {
+                        "text" : "5 mins",
+                        "value" : 312
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6508763,
+                        "lng" : -74.0784055
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e to continue on \u003cb\u003eAv. Cdad. de Quito\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eAve Cra 30\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eAv NQS\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow Av. Cdad. de Quito/\u003cwbr/\u003eAv NQS\u003c/div\u003e",
+                     "maneuver" : "keep-left",
+                     "polyline" : 
+                     {
+                        "points" : "u}o[xeacMXh@HLHLPZDFDFDDBFJPLPJNT\\Zh@t@pANXXd@RZVXNRLNj@l@\\X^V^ZhCtBHFVRRPJHpAfADBtAjAnAdAlAbARLjAz@|@n@x@p@r@j@BDLL@@LHXVXVr@n@r@l@z@p@JJlA`AjA`ATNNJNJZPPHLF\\LVJND`@JXHJBVFD@|@PZHb@F^HNBdAPD@lATtEx@p@N\\Fb@JTDf@HzB\\pB\\TBhBTB@`@D|AThAPJ@J@b@Dv@HvCPxAHzAHvAHxAHxAFzAFzAD|ADfADP?lADR@X@fADV@t@Dt@B"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6743467,
+                        "lng" : -74.06700990000002
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.7 km",
+                        "value" : 1664
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 142
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.635961099999999,
+                        "lng" : -74.07955059999999
+                     },
+                     "html_instructions" : "Continue straight to stay on \u003cb\u003eAv. Cdad. de Quito\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eAv NQS\u003c/b\u003e",
+                     "maneuver" : "straight",
+                     "polyline" : 
+                     {
+                        "points" : "_kk[`mccM~@B~@D~@D|@B~@D~@BnBHnBFvBHxADvADxBHjBF~BFhADbCHJ?rCJF?F@nBFnBH~AD`BFhCFhCFnDN~ADjAFD@B?B@DBP@v@@X@pDH"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6508763,
+                        "lng" : -74.0784055
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.0 km",
+                        "value" : 1023
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 131
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6270355,
+                        "lng" : -74.08123499999999
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003eAv. Cdad. de Quito\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eAv NQS\u003c/b\u003e",
+                     "maneuver" : "keep-left",
+                     "polyline" : 
+                     {
+                        "points" : "wmh[dtccMVApBBtCJXBr@Bt@DdAFf@Bb@@P?^?`A@|@Bd@@T@TBdAHN@n@Hv@Hj@FfBP~@J^DPAL?H@j@HhAPl@Nb@Jh@PFBxBz@LFb@RLFFDFDFBDBFDFB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.635961099999999,
+                        "lng" : -74.07955059999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.5 km",
+                        "value" : 1538
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 178
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6170689,
+                        "lng" : -74.07415279999999
+                     },
+                     "html_instructions" : "Exit onto \u003cb\u003eAv. El Dorado\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : 
+                     {
+                        "points" : "_vf[t~ccMRd@BH@F?FADADCFABA@CDEDGBC@E@C?C?E?E?C?EAEACCCACAACAAACAE?EAC?C?E?C@CBEBC@E?C@IFELIZSNIJGFClAq@h@Y@AfAq@HEFEPKvA}@\\Sx@i@p@e@h@]DEFCBCBAp@_@r@c@BABC\\SZUZSZS\\Sl@a@jAw@n@c@d@YPMRMXSXWTONIFGfEkC|AaAb@UNKvBqApAw@t@e@bAo@~@k@`@Wp@a@\\U"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6270355,
+                        "lng" : -74.08123499999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.0 km",
+                        "value" : 1046
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 93
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6098631,
+                        "lng" : -74.0682623
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003eAv. El Dorado\u003c/b\u003e",
+                     "maneuver" : "keep-left",
+                     "polyline" : 
+                     {
+                        "points" : "uwd[lrbcMTUPMt@c@|E}C\\QLI\\SFCvA}@n@c@JGLIl@Ur@WzBaAxAu@\\URMh@_@RQ`A_A`@g@fAoAj@s@bAcAXY@CTULMl@{@^g@Vi@FO"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6170689,
+                        "lng" : -74.07415279999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 230
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 23
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.608762,
+                        "lng" : -74.06651939999999
+                     },
+                     "html_instructions" : "Take the \u003cb\u003eCarrera 3\u003c/b\u003e ramp",
+                     "maneuver" : "ramp-right",
+                     "polyline" : 
+                     {
+                        "points" : "sjc[rmacMFCBC@A@ALSNU@CNYBGNWd@y@JSLUJQb@}@@CRi@@E"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6098631,
+                        "lng" : -74.0682623
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "77 m",
+                        "value" : 77
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 8
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.608123,
+                        "lng" : -74.0664118
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eCra. 3\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "wcc[vbacMFIFEFEFCDABABAD?N?P@h@F"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.608762,
+                        "lng" : -74.06651939999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.4 km",
+                        "value" : 398
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 66
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6047673,
+                        "lng" : -74.06737489999999
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eright\u003c/b\u003e to stay on \u003cb\u003eCra. 3\u003c/b\u003e",
+                     "maneuver" : "keep-right",
+                     "polyline" : 
+                     {
+                        "points" : "w_c[`bacMRDb@Fx@HJ?^ARA|@Gd@?P@N@NBPBB@RDRHPHr@Zr@XjAh@pAj@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.608123,
+                        "lng" : -74.0664118
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 108
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 38
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.605249,
+                        "lng" : -74.0682154
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eCl. 21\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "yjb[`hacMQ^O^u@~ACDCB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6047673,
+                        "lng" : -74.06737489999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.6 km",
+                        "value" : 561
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 200
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6006152,
+                        "lng" : -74.07021209999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eCra. 4\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "ymb[jmacMx@TbBf@lA^d@L`@J`@JJBHDZHB@HBPFB?NFLB@@^J^LdBl@fA`@nAh@PF`A`@LDJBHDHBPF"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.605249,
+                        "lng" : -74.0682154
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.3 km",
+                        "value" : 317
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 76
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6016705,
+                        "lng" : -74.06770510000001
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eCra. 3\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eAv Jimenez de Quesada\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "{pa[xyacMDI@E@E?E?G?[AKAYCm@C]CKCSAEEWK]IUKSMWGIU_@IKKOKMQUCAW]QOGEGC"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6006152,
+                        "lng" : -74.07021209999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            },
+            {
+               "distance" : 
+               {
+                  "text" : "132 km",
+                  "value" : 131612
+               },
+               "duration" : 
+               {
+                  "text" : "3 hours 9 mins",
+                  "value" : 11318
+               },
+               "end_address" : "Guaduas, Cundinamarca, Colombia",
+               "end_location" : 
+               {
+                  "lat" : 5.0678089,
+                  "lng" : -74.5953205
+               },
+               "start_address" : "Cra. 2a #Cl. 18, Bogotá, Colombia",
+               "start_location" : 
+               {
+                  "lat" : 4.6016705,
+                  "lng" : -74.06770510000001
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "93 m",
+                        "value" : 93
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 21
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6023896,
+                        "lng" : -74.067279
+                     },
+                     "html_instructions" : "Head \u003cb\u003enortheast\u003c/b\u003e on \u003cb\u003eCra. 2a\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eCra. 3\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eAv Jimenez de Quesada\u003c/b\u003e toward \u003cb\u003eCl. 19\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "mwa[djacMCCGEKGOGq@[ICOGMIMI"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6016705,
+                        "lng" : -74.06770510000001
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 105
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 33
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6030783,
+                        "lng" : -74.0679013
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eCl. 19\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "}{a[ngacMIDGDIHOPEHCBEFEFGHCDEBCBMBMDCBA@OL"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6023896,
+                        "lng" : -74.067279
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.6 km",
+                        "value" : 550
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 113
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.607569799999999,
+                        "lng" : -74.0659438
+                     },
+                     "html_instructions" : "At \u003cb\u003eAc. 19\u003c/b\u003e, take the \u003cb\u003e1st\u003c/b\u003e exit onto \u003cb\u003eCra. 3\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : 
+                     {
+                        "points" : "g`b[jkacMA?C?A?A?A?C?A@A?OKECIGKESGa@GMEKCECME_@Qo@YQI{@_@iAe@iAg@YOc@Qg@SUGKEA?[G[GQCgAOe@GGAGAMCICCASKSKUM"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6030783,
+                        "lng" : -74.0679013
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 132
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 14
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6087093,
+                        "lng" : -74.0661763
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003ePuente Avenida Calle 26\u003c/b\u003e",
+                     "maneuver" : "turn-slight-left",
+                     "polyline" : 
+                     {
+                        "points" : "i|b[b_acMI?MAGAK?M@Q@S@Q@WDc@HSDIDGBOJ"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.607569799999999,
+                        "lng" : -74.0659438
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "54 m",
+                        "value" : 54
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 5
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6090158,
+                        "lng" : -74.0665487
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003eAv. El Dorado\u003c/b\u003e",
+                     "maneuver" : "merge",
+                     "polyline" : 
+                     {
+                        "points" : "mcc[r`acMMHONS\\KP"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6087093,
+                        "lng" : -74.0661763
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.9 km",
+                        "value" : 876
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 73
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6144592,
+                        "lng" : -74.0719565
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eright\u003c/b\u003e to stay on \u003cb\u003eAv. El Dorado\u003c/b\u003e",
+                     "maneuver" : "keep-right",
+                     "polyline" : 
+                     {
+                        "points" : "kec[|bacMIHGFU\\c@|@Yj@Yj@O^MXYn@Ob@U`@a@n@UXW^WX[^A?QRYXkAlACBe@j@OTSTIJWZONGHOLUP[Vg@\\YRWNOFQFSHs@TODaAXWH}@TWLUL"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6090158,
+                        "lng" : -74.0665487
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.0 km",
+                        "value" : 1047
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 108
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.622084500000001,
+                        "lng" : -74.07747220000002
+                     },
+                     "html_instructions" : "Continue straight to stay on \u003cb\u003eAv. El Dorado\u003c/b\u003e",
+                     "maneuver" : "straight",
+                     "polyline" : 
+                     {
+                        "points" : "kgd[vdbcMUTC@IFSL[R[T]TC@y@l@c@\\a@Va@VC@SJs@^a@X[Ry@h@yA|@]P]RWNEB[PA@]PmAv@]R]RwAx@wAx@MHmAt@qAx@qAx@[Pu@f@q@n@m@n@IHIFKH"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6144592,
+                        "lng" : -74.0719565
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.5 km",
+                        "value" : 1499
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 174
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.632825299999999,
+                        "lng" : -74.08538639999999
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003eAv. El Dorado\u003c/b\u003e",
+                     "maneuver" : "keep-left",
+                     "polyline" : 
+                     {
+                        "points" : "_we[dgccMqA~@kAt@kAv@]R_@Tm@\\m@\\CBC@IDGDQLQJSLULKFMFYPYNiAj@eBbAIDQJm@\\_@VcB`A_@TKHOJQHCBC@EDGB]XGDYRa@Xa@XQJMHeBfAu@b@a@R[JWHUHu@NG@GBKDo@ZGDMHOLYZKJIFy@f@}A|@]R_@RSNSNUNKJOLONk@r@IHGJ_@p@IPEJCHA@AFOf@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.622084500000001,
+                        "lng" : -74.07747220000002
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "4.0 km",
+                        "value" : 3993
+                     },
+                     "duration" : 
+                     {
+                        "text" : "5 mins",
+                        "value" : 320
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.660037,
+                        "lng" : -74.10735989999999
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003eAv. El Dorado\u003c/b\u003e",
+                     "maneuver" : "keep-left",
+                     "polyline" : 
+                     {
+                        "points" : "ezg[txdcMs@vCWfAe@|Aa@`BaB~FCFSr@K`@[dAWbASp@GNKXQ^MXYh@[f@]f@WZOPOPYZURe@Xs@b@cAj@_@P]RwC`BuC`BcAp@mAt@oAv@q@Z_@Ty@d@wBlAw@`@m@ZSJk@X_@POHc@RYN]NA@kBbAaAh@wBhA{Ax@y@b@wEjCg@V{Ax@MFm@VKHkAn@qAr@wBpA{BpAsBjAc@V_B~@i@Xk@\\wBfA{Av@wC`By@b@sBlAsBnAUJULULWL{Az@qAt@i@XeAl@aAd@_@T_@Rq@^iAl@_Ah@]R}@f@]Rm@Z{Az@cIjE"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.632825299999999,
+                        "lng" : -74.08538639999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "68 m",
+                        "value" : 68
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 8
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6606177,
+                        "lng" : -74.1075089
+                     },
+                     "html_instructions" : "Take the exit toward \u003cb\u003eAv Rojas\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eAv Boyacá\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : 
+                     {
+                        "points" : "gdm[~aicMCAC?A?A@IB]HYHUFE?A?A?A?CA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.660037,
+                        "lng" : -74.10735989999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.5 km",
+                        "value" : 489
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 49
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6642986,
+                        "lng" : -74.10991489999999
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003eAc. 26\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eAv. El Dorado\u003c/b\u003e",
+                     "maneuver" : "merge",
+                     "polyline" : 
+                     {
+                        "points" : "{gm[|bicMeBbAc@T_A\\qAz@_Af@UL]PcAl@WL_@TULULi@XKHkAt@e@Z"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6606177,
+                        "lng" : -74.1075089
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.7 km",
+                        "value" : 662
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 121
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.668773799999999,
+                        "lng" : -74.1091579
+                     },
+                     "html_instructions" : "Exit onto \u003cb\u003eAv. Boyacá\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : 
+                     {
+                        "points" : "{~m[|qicMIAC?C?IBC@C?WNC@C@A?C@CAC?GCGEEEiAqAe@i@GIECCACAOEE?CAE@E?E?G@EBIDIDUTUTc@`@c@b@m@l@m@n@ORIJC@CBE@C@E@E?C?C?E?WGu@u@u@u@sAqAaAaAIGGG"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6642986,
+                        "lng" : -74.10991489999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "3.5 km",
+                        "value" : 3459
+                     },
+                     "duration" : 
+                     {
+                        "text" : "6 mins",
+                        "value" : 368
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6937753,
+                        "lng" : -74.09093489999999
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003eAv. Boyacá\u003c/b\u003e",
+                     "maneuver" : "keep-left",
+                     "polyline" : 
+                     {
+                        "points" : "yzn[fmicMEBEDo@s@q@q@cDaDcA_ASUYYo@m@[[YYGGEEq@q@o@q@yAyAWUUWu@s@k@i@m@g@y@u@y@u@USUQMIIEWMIEs@Ws@Wm@Wm@Uk@Yk@[{@i@y@i@{@k@{@i@sA}@}AcAeAo@wBwA[SUOu@e@o@c@KEc@Ye@[k@_@e@]OM[WwAiAEEGEuAgAg@]_EgC}@i@}AaA}A_A[W]USOsBgA]U[UQKKG[U]UKI]Qc@Y{@g@y@g@{@i@a@U[QGGIEYOYOi@Yi@[SMCAcAu@c@Yc@WqAw@qAw@UQWOuD}Bk@Uk@Uu@]SIo@WaBo@i@Ug@SoBy@kBy@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.668773799999999,
+                        "lng" : -74.1091579
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.4 km",
+                        "value" : 412
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 49
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6956508,
+                        "lng" : -74.0880224
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eright\u003c/b\u003e to stay on \u003cb\u003eAv. Boyacá\u003c/b\u003e",
+                     "maneuver" : "keep-right",
+                     "polyline" : 
+                     {
+                        "points" : "cws[h{ecMJMy@_@SMOK_@[QSYYMQMQGMUi@CEEQCO?IAC?I?Y?e@?G?GAGAECIGI]UQMEEMICCGIIUEI]cA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6937753,
+                        "lng" : -74.09093489999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 170
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 24
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6950375,
+                        "lng" : -74.0882046
+                     },
+                     "html_instructions" : "Take the ramp to \u003cb\u003eMedellín\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eQuirigua\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : 
+                     {
+                        "points" : "ybt[biecM@W?IBIBGBGFG@CHELGHCP?N@H@D@B@FBBBDDDFBF@J@F?D?BABSt@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6956508,
+                        "lng" : -74.0880224
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "5.6 km",
+                        "value" : 5615
+                     },
+                     "duration" : 
+                     {
+                        "text" : "15 mins",
+                        "value" : 878
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.7275589,
+                        "lng" : -74.1253724
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003eCl. 80\u003c/b\u003e",
+                     "maneuver" : "merge",
+                     "polyline" : 
+                     {
+                        "points" : "__t[fjecMu@|Ac@|@GL]n@cAvBq@jBIVITO\\O^ABABMXQ^]t@OXMZ_@`A[t@_@x@O`@Yr@Wl@a@|@i@lAEHMXUj@Yp@Yl@Q\\_@x@q@nA]l@U\\QZy@nAIJk@z@s@`Ao@~@u@`Aq@x@oBhC{AnBa@h@]`@QVUZa@h@EDGJWb@OTm@jACFUb@Ob@MVUt@Sj@Sj@_@lAYx@Yz@qCbIi@zAi@|Ae@nAs@jBCLELSh@Sf@a@bAYp@GLKRa@v@gClD[XYXkAnAkAnAUT_@^i@j@m@l@ON{@~@i@j@IHc@d@mAnAmAlAkBhBg@f@MLUPGDMHGDcAz@eCjB_An@e@ZSLo@`@qBnAgC~AiBjAMH_@T{@h@mAt@u@b@[ROHEDIFEBGDMJ{BvAu@d@_Al@oBpAaBbAYRiAt@_@TWNOL[PWR_@T]Vg@ZGB]Nc@Xe@Xw@h@]T]Va@Xq@j@y@r@uAhAmDrCc@\\k@b@YTIFSPg@`@UTSR}@t@eAx@MH]TQPIFEBMFMDM@SBO?c@@S@O?QBM@KDIDMFKHGHCBCFABCFGN"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6950375,
+                        "lng" : -74.0882046
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "4.6 km",
+                        "value" : 4582
+                     },
+                     "duration" : 
+                     {
+                        "text" : "6 mins",
+                        "value" : 352
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.7571029,
+                        "lng" : -74.1539136
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eRoute 50\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "gjz[prlcMWl@Q^EHKRA@KPKNOLIHUNYP_@ZURMLk@f@s@n@a@^UP]\\m@p@UXk@t@AB[^SXMNKLMLABWRq@j@EDkA`Am@h@QLQPi@`@SPm@d@u@l@o@h@kA~@YPIHc@^k@d@IFQNqAfAYVQNONQNKHuAjAk@b@SNa@Zg@b@q@j@_@Xq@h@MJYTMJa@Ze@`@o@d@m@f@YXMJqAfAy@n@MFYTOVQNcBrAKHi@^w@n@CBEByDvCqAfAi@`@g@`@e@^WTKHSNc@^GFGDu@l@u@l@iDnC_G|EMJkBzAkBxA_ClBaBrA]XsBbBKHQLaBtAcAx@{BhBk@d@_EdDYVYX]Zc@f@eBnBo@z@UZQTeAxAa@l@c@l@eBfCCD_@h@oC~D}@pAIL}@rAmAdBu@dA_@d@wB`Dg@r@[d@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.7275589,
+                        "lng" : -74.1253724
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "14 m",
+                        "value" : 14
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 1
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.7571701,
+                        "lng" : -74.15401709999999
+                     },
+                     "html_instructions" : "Continue straight onto \u003cb\u003eBogotá-La Vega\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eEl Rosal-Bogotá\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eSantafé de Bogotá (Puente el Cortijo) - Siberia - La Punta - El Vino - La Vega - Villeta\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eRoute 50\u003c/b\u003e",
+                     "maneuver" : "straight",
+                     "polyline" : 
+                     {
+                        "points" : "{b`\\|drcMMT"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.7571029,
+                        "lng" : -74.1539136
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "5.8 km",
+                        "value" : 5842
+                     },
+                     "duration" : 
+                     {
+                        "text" : "7 mins",
+                        "value" : 404
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.7888255,
+                        "lng" : -74.1960843
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003eBogotá-La Vega\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eEl Rosal-Bogotá\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eSantafé de Bogotá (Puente el Cortijo) - Siberia - La Punta - El Vino - La Vega - Villeta\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eRoute 50\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eToll road\u003c/div\u003e",
+                     "maneuver" : "keep-left",
+                     "polyline" : 
+                     {
+                        "points" : "ic`\\rercMmAnBCDUZgBjCOVQTQVSTo@|@_@l@QVQXc@l@a@l@]d@]b@}@pA{@nAiCnDu@dA]f@{@nAaE~F}ItMwFfIy@lAuHzKUZi@x@QXsCbEgBhCaClDu@jAy@rAoC|DkD~Eu@dAKPa@l@]d@]f@[f@S\\y@jAQTSZ[b@cAvAwBbDwAtBg@t@iCvDqBvCW`@o@~@{ArB{B|CwChEuApBuAjB}@vAaBbCuAtBc@n@SVcBfCsDlFgFpH{CtEA@k@v@iCtD}@rA]b@{@nAYb@m@v@m@`AW^i@r@]f@i@x@ABY\\oBtCEFoAfBq@~@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.7571701,
+                        "lng" : -74.15401709999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "26.8 km",
+                        "value" : 26791
+                     },
+                     "duration" : 
+                     {
+                        "text" : "27 mins",
+                        "value" : 1628
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.9333995,
+                        "lng" : -74.3037794
+                     },
+                     "html_instructions" : "Continue straight to stay on \u003cb\u003eBogotá-La Vega\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eEl Rosal-Bogotá\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eSantafé de Bogotá (Puente el Cortijo) - Siberia - La Punta - El Vino - La Vega - Villeta\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eRoute 50\u003c/b\u003e",
+                     "maneuver" : "straight",
+                     "polyline" : 
+                     {
+                        "points" : "eif\\nlzcMk@|@sCdE_AvA{@jAcCrDyFfI}AdCSVm@~@yCjEuCfEUZ}BfDqAnBgCrDU^W\\g@r@u@dAKLKLw@`A_@^y@t@mA`AYPA@m@`@eAl@cAf@GBSH_Cv@oBd@GB_ATkEhAiCp@sBh@wBn@a@J_AXkCn@a@HOD_E~@a@Jm@Pi@Te@Va@Vc@ZSTOP[^c@l@INaBhCwA~BKNkAlBcGnJyC~EEDcBhCqD|F{@tAyDrGg@v@[f@SZU\\CDQTw@bAC?A?A?A@A?A??@A?A@A??@A@A@?@CB?@A@?@?@A@?@?@?B?@?@@@?@?@@@?@y@pA_A~A}@rA}@tAS\\aAzA{DjGW`@}BtDcBnCSZgDrFcF~HKNmAjBMPwA|BkBxCcCzD_DfFSZgBrCU\\QZ}DjGy@tAy@rAuAxBUZoAtB{DhG_D|EqD~FmApBmAnB{@pAy@pAaDbFsAvBkAjBQVc@r@u@jAUd@_@j@}A`CuAxBgAfBs@hAOTs@jAW`@s@fAW`@aAzAgAfBgBrCYf@iFhI_GjJ}FfJaBlCUZqDzF_@l@gDtFaCtDsDzF}BtDiAdBsA|BiBvCcA~AoAvB[h@}A`CiAbBMP_@l@_@j@mClEW^m@`AIJ[d@]j@_@j@EHEDKRu@jAKPc@t@e@t@Wb@AB]f@uA|BkFjIuBfDeBjCq@lAWh@Qx@Ej@@j@@TBV`@xCTfBRbBHp@Jz@@h@Ed@K`@MXKPA@IJONSN_Al@uBvAeDvBmBlA[Z[^GLA@EJERIb@ARAZ?^Ff@R~A^xCDb@Fx@?J?PARGZ?DGTIVMVKNSRc@^KFWL]JQBSBS@]?UAMAUEa@IEA}@OA?}AY_Ca@[Ea@Eo@As@AkBBiCJcCDu@?_AAaECYAc@?E?i@@sEJe@?E?s@?{@?q@C]C_EQ{BIaBIm@Cm@Fs@Li@V_@Ti@h@kAvAc@f@sAbBIJuBhC[\\mCfDkCdDkAxAo@|@Od@EZAX@^Hf@`@dAhAxC`AfC`@`AJ^BV@VCNEVELINMRSN}@\\gA`@MBa@LaAZ{@TkBb@a@Ji@Pq@RgA^mA\\o@Tu@Pu@Ju@FC?mABmACU?m@?gAB_AHoAPa@Hs@Jm@Da@Bm@?e@AOCWCeASwA[iBa@UESEQCg@AO@Q?UDUBYHYLWNEDOLKJSTIJGJGJKRQ\\w@|AEFc@t@OROJUHQDQ@O?MASG]OSOUWMOIIm@w@AA[a@OMUMWKYISCYAQ@WBWFUJYPUPGFi@h@_BbBcAlASTW^S`@Uv@IXSbA}@nFKj@KZIVIPKNUPk@XKFSFyAd@mBj@oA`@{Br@gCt@a@J{@TUFO@M@WA[Ei@Qa@KICw@W_@Ow@Wa@KQAQ?MBMBMFIFILEJELAF?F?JBPFZb@vAJ^f@dBh@dBH^FX@H@F@PATCNCJA@INEDo@l@oAfAOPIHGLCLELAL?L@NBP@?FRHNTXhAjAXXVXDD?@RP?@@@BBRRBDVXFFTXLVBN@J@HG^EHEFKHIFODI?G@KAMCKEWOy@i@mAu@aAk@}@g@]SQKsBkAOKy@c@_@Oo@Om@Ii@Cm@Be@F]HYHEBa@LE@YJUHgA`@_ATG@g@Ha@BYAc@GUCYICAQKUMCAYSOKo@a@CAAASMKKIIA?GKCCMSEUCW@U?IBYToBF]LcAHq@F_@@c@B}@BUCu@AOASEYKk@?AEWEGMa@O_@KYUe@U]IMIOMOIKGIq@s@OO?AqAoAw@s@SMy@o@YQq@c@cAo@]SWQoAw@]WIIQQ_@_@_A_As@u@QQUYMSGOIUG_@Ae@Cm@A_A?iA?EA}@?I?GGe@Mm@GOEIOQUWGGOQMKe@e@m@m@s@s@[SEC]SCA[Mk@SwAe@UGIEa@Ms@UMGMIk@[e@_@]YY]KKKMYg@Qe@a@kA_@kAMa@c@yAI[CGOc@OWOW_@e@GGuAwAsAwA_@]YUQK[Mc@Mk@Ky@M[CaA?w@Dk@Hy@Nc@FWDG@O@O@UAQIMGECGCWYc@s@U[KMIGMKMGe@KYAS?]FYHOB[HWHOBS@WA[EOEKEUOWUYYwAuAgAgAg@_@WQMGA?AAKEUCa@EA?i@A_@De@F{@PeARA@_@FA@K@UHWHe@Ti@b@y@z@EBUNEBA?QJ[DU@_@CA?A?QEKEA?MGs@[}@a@o@[a@Qa@KWGUA_@@_@F{@Po@FE@O?KAICMGKGMIQOMO]WYOSIOAc@CI?A?OBOB[HUNKHKLMJ?@QNGFWXQX?BA@I`@CHGj@A^@R?HBR@DJb@`@|@N^`@~@PZ?@^x@DPD\\B\\EhAG\\?@CLGPKXQh@KZADUl@KPKPIFUPe@To@Py@Xk@`@ED?@UX?@UZm@z@W\\q@d@_Ad@A@KFQH]PKFOJA@i@^GLGLCFGPARAP?P@L@p@@NRnC?T@TD`ABf@?R?@Bf@@r@Dz@@Z?PC`@Kr@W`Aq@nBSl@Qn@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.7888255,
+                        "lng" : -74.1960843
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "25.1 km",
+                        "value" : 25117
+                     },
+                     "duration" : 
+                     {
+                        "text" : "26 mins",
+                        "value" : 1580
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 5.047277999999999,
+                        "lng" : -74.3770049
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e to continue on \u003cb\u003eBogotá-La Vega\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eLa Vega-El Rosal\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eSantafé de Bogotá (Puente el Cortijo) - Siberia - La Punta - El Vino - La Vega - Villeta\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eRoute 50\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow Santafé de Bogotá (Puente el Cortijo) - Siberia - La Punta - El Vino - La Vega - Villeta\u003c/div\u003e\u003cdiv style=\"font-size:0.9em\"\u003eToll road\u003c/div\u003e",
+                     "maneuver" : "keep-left",
+                     "polyline" : 
+                     {
+                        "points" : "wpb]rmodMELcAzCGRaBpEO`@s@hBQ^QZSNSN]RYLWFWDaBRqD`@kCZA?qC\\}@Rc@FOBa@LuAp@{Aj@{@^aAV_@H_AH{@Bi@D]FUFWNSRKNIRGb@ObAYdBc@`CGPMNQRSLQHUDUBY?UEYIYOMOKOGOG]?_@DWRu@`@kAl@mBRu@L_@f@aBHc@@U@_@Ce@Eg@K[Sm@W]OQUOkAe@oCeAeBu@y@_@WO]S_@USQeAkAaBmBkA{Ay@}@g@y@M]G[G_@C_@@u@@_A@]@c@@}@?o@A}@?GCk@OaAQu@Wy@Ue@IMgAoBaAcBk@eASe@I_@Ac@@YD_@Ro@^i@lA{AtAeBr@}@V_@N[Vm@d@kAv@eBd@aAb@g@d@[t@YpBe@nBe@r@MfAU`@KTMLKJKFMBIBEBO@QC[E_@Oe@S_@YUSMWKYEUCU?U@UDYHSHEBIFW`@u@hAW\\a@Xk@V{@Vk@PiCp@eAZ}Bl@y@To@Xw@b@E@cBjAwA`Au@l@u@f@_Ah@i@^e@l@IJ_@h@QXQ\\M\\M^Qt@[xA]xAQl@Of@s@|BUp@c@nAm@xB_@lAM`@A@Kd@Mb@Md@Mb@CFEPIVQZSRGFMHGFSHQDMDM@I@K?K?K?QAKAQCUEwAc@eA][ISCMCOAA?KAK@M?[Bc@HOFULSNWXk@p@[`@[`@]ZYRUL_@J_@Dm@@eA?oBCu@Ai@AiFYy@CuBCm@Ao@?Y@A@M@M@KBC?UHOHKDGFIHEFA@EHM^I\\AHCLCTS~BUbDEb@C\\GjAGx@Kv@GXIXWt@_@z@_@|@O\\GRGPCRCPCT?JAJBRBL@FBHDJBFHPHJ\\\\TTDDXVLLJLFHDHDHBFBL@J@F?D?HAF?@?BAFCHEJEHEFKLKHMHOHSF[Jg@Pi@PYLUJUNc@V]X]\\_@^y@`AA@WZWZk@t@c@p@KLWXQRY^a@`@GDURYRc@RYHKBUFK@WDC?_@BqAHS@mBJ{DTs@Ba@Ae@Cg@Im@Qe@S_@Wc@a@w@{@g@k@WYUUAASSCCOMIGMGOIOGMGSGKC_@KMCSE_@IOCQEICEAOEQEC?IECAQIGEIGMOAAIQCIEKGc@CWGu@CY?AEUEUCKEMISMUOQSSOKOIYKUGa@Ga@Eg@Ei@GMCUCcBUcAQMCuAWIAG?I?O?I@MBIBGBEBGBEBGFEFGHGLEHAFERC\\?N?J?BFPFLHLNPd@`@DD|AdBNTlAjCP^fA|Bp@vAPd@HTLl@Hl@@r@Al@?^?B@TBp@BRBL@DRf@b@l@@BPXh@~@|@tA`@n@BHL^Db@Ap@@~AB~@@`@NvB@Nb@nE@x@A^C`@Op@_@`AKVs@~A?@Sj@IZGh@?d@Dn@Bt@C^ETERGRMPIH[ViA|@_@VYLIBGBQ@K?M?OAi@Ig@Ky@Qq@Sm@[OKMMOQOUGUESE]A[@E@[@EFYN{@Ls@Ba@CWEO?CGKKMKKOGUGYCA?MCW?m@?{@Cc@?q@@cA@W@WDe@JmBh@WD]DK@I?EAMAQECCGEKIAAEEIMOW[s@KQCCIGMGQGUCIAMAQ?E?K@SD[JcAf@iAr@{Ax@A?_@NoAd@KDe@PoBt@G@m@\\u@f@y@b@a@R_@JYFyAVaAPeARaC`@c@DO@Q?A?QAOAYE[KWOMKg@g@mAcBMMMQMKIEGEQGEAGCQCGAMCUAK?G?UDI@_AVaBh@e@No@To@T[NGDKHIFIPEV@TDVFJFHDFFBPHRDN@RALAHCFCf@_@l@i@^QDALETCV@H@L@VHHBHHHHd@r@@Bb@x@Vf@X^Z^HHXV@B\\XLHJFRJH@RFb@JH@NB^Bj@@t@CjBGvAO`AGhAK`AU@AzAi@tAi@VINEXC\\AV?JBNDNFPNLPJLDPBL@PAL?BCRGTGPKLONOLmB|@uCpAcAj@g@Xq@d@iAt@}@n@{B~A_BvAwAnAy@z@k@r@MN{@lAYb@g@l@OP_B~AGFYVYViAhAoAvASTWXW\\YR_@XGBGDKFGFYROLIN_@bBABCZ?@E`@?@Gb@ANEd@ADKpAM`BGb@MrAc@~DEb@Gh@M`BMt@ETKZYf@[`@IJIHEBo@^wAd@{Ab@iA\\QD}@b@_@Nu@^{@f@]RC@aB|@]P_@NKFIDUHcAd@_@P]R]P_@PGBUL_@P]P_@RID{BhAaBx@A@OHKPGB}EfCsBhA]P_@R]PUL_@Pq@Xo@Rk@Ns@L}@JA?mAJkE^kBNQEM@iBP_@HMFQHQNILINGRIr@Er@CJKRUVOHIFKBSBWA[CqASe@I{@OQCM?M@U@E@SDKDw@d@STcAv@u@x@MJQNi@h@SNSLSJQFUFQDq@By@@eAAaAHYDWHMDOF[RQLsAdAYTOJABYR[T]Ta@P]J]JoAZyD~@YFC@_@NKDOF_@N_FtB}@^e@XqAlA}AxAe@b@s@p@KNIHOTIXERABE`@AP@TBrA?`B@f@?zBCtAAFANAb@?@MxAIlAIrAKbAWzB?@Kt@Gj@IlAMvBIn@AH?@ALId@KXU^]^o@p@m@n@_@f@QZWf@?@QZm@hAON]b@a@VgAb@wAf@c@P[REBSNWXc@f@EHKLo@`AORKL[`@_DlEWZINw@dAKLILcAtAILKLGHUZQPe@XQHWJu@LqAPO@c@Fy@JgAFo@B_@@a@Fu@JUHKBSJe@Vw@ZKDQLeAl@k@f@SVOVkBlDg@~@SVMPQNSNa@Rs@PC?o@HC?uARcBTyARsCb@QDODa@RSJ[Xy@t@UPo@f@WLc@Nq@PwAd@mBd@eATa@Ha@H{@PGB}@Vg@La@Jk@Rk@^YTEBMLk@d@k@f@EBURsBjBy@r@wBhBu@n@[ZYVEDw@p@u@l@q@d@eCrA_Af@{Az@EBUJiAj@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.9333995,
+                        "lng" : -74.3037794
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "19.0 km",
+                        "value" : 18965
+                     },
+                     "duration" : 
+                     {
+                        "text" : "21 mins",
+                        "value" : 1237
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 5.0133603,
+                        "lng" : -74.48218109999999
+                     },
+                     "html_instructions" : "Continue straight onto \u003cb\u003eSantafé de Bogotá (Puente el Cortijo) - Siberia - La Punta - El Vino - La Vega - Villeta\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eVilleta - La Vega\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eRoute 50\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow Santafé de Bogotá (Puente el Cortijo) - Siberia - La Punta - El Vino - La Vega - Villeta\u003c/div\u003e\u003cdiv style=\"font-size:0.9em\"\u003eToll road\u003c/div\u003e",
+                     "maneuver" : "straight",
+                     "polyline" : 
+                     {
+                        "points" : "oxx]fw}dMaAf@C@aAb@kAh@]RSLUTORQXM\\IRcA|CM^ALAL?ZBVDPDPN`@^|@Vn@JVBLBN?P?LALAL?NC\\M~ACj@EXCJEPEHGNINIJEFKFIDQHIBMB]DC?[@G?[?mA?c@?kB?M?U@C@M@MBC?KBIDYPWPQNONMNKNGLKR?@IVAJABAJ?PAF@RDTBHBJLTDDBDLNDD\\Xt@h@B@RNBBj@`@FJFLBHDN@JBPCn@Gx@E`@C\\AT?VDd@DVF^FVDLHf@BNNl@Hf@@b@?d@A`@ATALAL?@CJAHGPGRQb@W^uAtBA@aAtAeA~AW\\eBdCS\\mBnCMP]f@Q\\GRENCNCPAP?@?L?R?P@RLj@L\\LX|@lCRh@Lb@JZDXDR@N@LAPANAFOhAOv@CRCNSbAe@fCGVEPITIPGPEFA@IJADA@MPA@OREDUXUXUXWXIJGHMJSPSLGBOFIBa@LYD]FeALgC^oDj@YDKBG@QDOFGBQHSLONSRA@YXgBfBcCdCwBtBiBfBIJ}@v@YXUR[Z[ZONQJUNe@Nk@PeAZGDYPKJIJIJGJEJAFAH?J?H?L@L@JFRv@bC@Fx@dCPr@@R?RAPETKZUl@_@|@wAhDO^Q`@eAzCCDy@~B?BCDu@xBy@bCABCFIV[|@Od@[|@Sl@ADeA~CSl@AD]zAI`@C\\AT?XJpBDp@BZ@\\QlAKv@Ed@CT?P?@@PFh@Rr@T|@DJFXDXBP@P?PANANEPADM`@Qb@a@rACLCNCZ?Z?J@FBL@HDJDJHLJLPVBBf@f@r@z@Zh@`@z@n@vAPb@@?HX@FBJBL@F@H?NANCV?DCLGV_@nAIPO^CDKXITGHEHMPA@GHKNW\\CDQRYXWZWXGJKPUZA@K^K^A@E`@ADEZ?@?R?N?B?H?T?H?B@T@L@T@^@B?L@T@L@J?H@@?`@?b@CREPEJIL[`@SRoAhAYVYVs@p@EDOTA@W`@Ob@K^Gf@Ed@A~BAfA?b@AfA?^Ef@ETSXUTYLe@Lm@JUDUFULa@\\EHKNELIPMl@]jBEL_@rAQ`@Q\\GPYn@c@|@q@xAADQf@Op@CTAP@F?NDf@H`A@TBl@?\\?HEr@EXKXe@t@IJm@|@U\\a@n@]j@Q\\K^APAT@JBNZ`Bx@xCBHVv@Tt@DZ@X?DCj@G`@Od@OZUXSPUPWJe@Ts@VwAh@G@sBv@C@k@RUPGHIFKTKZG`@@X?PBNHRFLFJHJHFVRPHNDNBL@f@Aj@KxAa@`AY`@KnA]f@Kl@Gl@E^Ab@Bb@BT@x@HXF`@JFBXHZL^Rf@\\fA|@PNXTZVZTZVZVXTZVZVXTRNFFZVZTZVXTZVZVZThDlC~ApAZVt@l@ZTZVf@`@n@\\n@Vd@Lp@J`ADhACb@CrDKNAR?n@@h@BNBRBNBB@ZJVFn@Xx@h@l@j@~@`A|@`AVXr@p@VXjAlATNRLj@Tn@L^@`@AnAO`C[`Fu@`@GrEo@NCPC|AItAEtEKdCEhAG~AGrBGhCC|BCr@Gb@GLCh@Ml@WZO@?\\QVM~Ay@b@OLEl@Oh@Ch@AB@`@BJ?rKbAj@HrAb@nAj@B@xAl@bBp@`@NbAf@\\P^PXNB@\\TBBRVTXDDhDpG^j@FFTZ`@b@LNHJXXhClCJLb@p@R^b@|@Xd@d@`AXj@JPNPLNTRTLRHXHTDH@v@Dv@D\\@tAH\\BVDXHZLpCnAJD|@b@\\V`@^Zd@Vf@L^H^DXB^@`@@jB@bCAX?PA~G?b@?Z?DB^Jp@Nf@Lb@pBhEp@nAvAvCZj@^d@d@`@h@Xp@Rl@Hn@Dj@Cb@Ab@A|BIr@?B?N@`@Dx@RDDx@l@ZZx@z@n@l@f@\\p@^dA^PJRJpIjD|@JjACJALAB?l@Gz@KZEjBSD?~@Kz@?@?n@DD@b@BD?|Gn@j@D|@FfALh@Jf@L^RDBZZJPFNDHBH@H?@@@BHBLBV?VAd@Gj@CRCb@OxAAHCpA@h@@NL~A\\~DFr@PjBBb@D^?@BPB`@?@PdBFd@?BLb@LTPVBD@@LLFHZVRLXNVF^D\\BlDDp@Bx@@D@rB\\VLXNRNPNLPJPLTHTDRBH@V@F?Z?DAd@S|@a@j@KLWL_@LSFSBG@O@SFQJGFEHEHERARAPB`@?J?H@B@D\\fAZn@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 5.047277999999999,
+                        "lng" : -74.3770049
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "30.0 km",
+                        "value" : 30045
+                     },
+                     "duration" : 
+                     {
+                        "text" : "59 mins",
+                        "value" : 3515
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 5.0643372,
+                        "lng" : -74.58895529999999
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eVilleta - Guaduas\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eRoute 50\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow Villeta - Guaduas\u003c/div\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "odr]rhreMPTfAbA\\b@PXDLBH@H?@A@?@ABADCDGFGFGDIFKD_Dz@O@QBY@[Ae@CSCU?O@SBgAR_@DcD@UA]IAAQIYSYQYO]Ei@Aa@@m@FuC^e@Je@LgA^o@Tg@Ha@@Y?W?K?]D_@Pu@d@_@V_@TGDY^OVKLKJc@Zw@b@ONIJGJEJGPOj@Ql@Sd@KVUZEDIHIJA@WPWVQHSFSBG?C@_@Bm@Ho@RmAb@o@Z_@ZMPORKRGRGP?Z?R@R?@BRDTPf@j@|Af@vAL^?@Rj@BL@N?JANABEb@Ix@Gf@If@G`@CTALCTE\\Id@GLGJQZOPIFQNOL_@XKLKV?@ETAVAF?L?@Ab@?@GR_@hAABSn@CPE`@?@CRAL?@E\\CZ?H?@?ZBb@Bl@@@D^@J@f@Cf@G\\KXM\\Qb@y@xBIRQd@QXCDUPgAh@OJ?@SVQ`@Up@GVCJK`@CDCN?@?JAJ@VBL?@FPHNNRh@n@DFHFDDBBZT@@x@d@\\VTZn@bA^h@RNRLNFJBLFPF@@JHFHFL@D@D?@@F?ZABANAJGNIPIHGDIBKBO@W@WAU?a@Cc@CY?S@C?C@MHKHKNCBCFCR?RBP@LFRJTDLDDb@p@JP`@r@Zp@FRBd@@X@VC\\Eb@OpAANEXC\\?P?P@L@JBJFNXf@LXBPAP?BCNGRGJORMHIFODSDQ@KAGAOKACCEGU?EC_@K[CGEGEEGCOIi@SkBy@CCUGSEM@QBMDKFIHIL[j@EFEDIDGBODI?[ESEUCM@I@MDA@C@CFCFCL?J?L@JBFBDFFFBFB@?jDp@HB\\HNFJDFDFHFHLRDNBV?B@`@?n@G`BAl@Bn@@T?L@HDPBNDLFJFHDBDBHBF@H?J?LAPClA]HCPENCN?Z@X?VBN@R@P?TCRGJGDEDGLUFOFQFGFGDELIDA@?BATCLAD@PBDBVLb@ZFDFDLDRBX@TA@?X@N@ZLPJHHb@`@NNFFBBLLNNXXHRDJ@LARAFCJEJIHMLMHMLGHINENCJAHAB?F?J@JFTDHHLLHPH@@r@TlEtB`Ah@XRPPHPFTF|@@B@LDHDHh@r@JLFHHPf@rALTFDJLJJFFBBNXDJ@J@TCJERK^?@CP@PBZ@Hl@dC@@FN?BJNLLFDDBJBNBB@N@b@DN@hBPP?@?RC\\I`@KNEFADAH@H@B@LBJFJJDNBR@XC^CPABEJIHe@d@}BtBQVOXCT?VBl@?NALCLCFEFGDKDUF[DyD`@a@F[HYJYNQH]VQRMPCDMXwAzCOXMPMLKDKFMBS@]BsD@[BKBGDGFIJEJADAF?F?BBFBD`@n@DLBPALELMPq@t@SZ_@dAOVONSLWLUJSBwAPMDEFC@CFCDCFAFAH?H@FDJJXHRDJ@HAJCLGLMLCBcBzA?@WZMVKRMZOTUNEBIFSFA?[HeALE@YDGBOFUJKJGHAFAF?H?F@JDJDHFFLJDBJFNFB@^N|@^\\P@@JFJHHJJNDHDHL\\FZDV@z@@HBNDHVj@?@RZ\\l@HJ@?RNJBL@JAFA@?FCHCFEBGDI@GD_@?O?_@@I@KBK@CBINST]@?N]BGHODG@CFIHIHEHEHCHCNCL?N?fAEb@CZAPCVCXK^OtAo@@A\\QPILIFETSJMFI@CNQHGJEDADAHAH?F@D@HDLFJJTVHHLNVZBBPLJJJBFBJ@H@DAPEp@[JCREPA`@CLAT?b@ANAJATEt@S`@KnBe@TERCPAZAnA?L?j@@VBVD@?H@JDNFFDDDHHHJDHBD@@DRBH@R?h@Dd@@HFTX|@DV@ZAJAPEZAJAJ@NBF@FDLJPJNHHJFHDJDJ@H@JAXEBAPAL?F?H@JD`@LZJLDF@J@D@@?F?H?FARAHCLERINIHGJODEHONSNQPOTQPM^QXMFCJCTERAXC\\?`@?L?TCF?ZEfAKBAnAMXCVA^AJ?H?P@PBJDJDDBBDFFFL@@JP@DBFHNP\\HJJHLJBBNJZVHFLLDDBF@?BFBF@FBH@H?H?J?@AHMr@Kj@AD?@ER?FAFAL?H?B?B@F?J@@BXh@xBt@`DBFFXBFDNDL@BDDDFDBHBFBf@RF@h@PD@jBp@\\PLJHJFHFNJVHVBH@BFP@@FNHLFHJH^TfB~@hB`ALJ?@XX@@TV@@PNB@\\NVF^FRBP@F?D?B?L?PALCHCNIf@WTELCR@@?VDj@H\\BN@V?@?n@?^APBF@JBNBTH`@P\\Lb@Nb@JTFv@Jf@Hj@H`@B^@`COH?b@C|@Cl@?b@?P?P?b@?D?~@CPA\\ALAH@B?F@HBHDDB@DBDBP?PAFCHCFEFGDC@EBIBEBI@W@M?c@?c@?c@AS?o@?]@UDYD]Ha@HcDv@i@LgCj@_@JA?YFMFKFOJSPMNGLIPOZINIHIFOFMFsBZqAXA?a@LA@c@LSNCBWRABKJGPA@GZ?BADA\\ANCXCRKTMJOJQFC@YJA?C@]FS?QAWGYOKGWUGCMGUGIAG?Q@SFC@IDQNCBy@z@SLWHOBU?UCeASo@Ma@E]?M?S@Y@YBQDQFUHQLMHA@OLGFSTOLQHA?C@GBSByBP]@]AMAKCUEk@[{@u@SKOCICKCQAI@I@A?G@GBIDGFGHGLEPAJ?R?l@C\\K^MPMNKBEBOBK@K?KAKAMEKGGGQWGMIKESIi@KWKMAAKIOGMEG?O?MBKDIDA?IFIJA?ABILIP[x@ABGNELCHEFMLWHYDS?M?OESESKOKMMOQSQQKQGWCqAESCWGUKAA]Og@YiAm@GEa@MCA[KMEs@KCAc@GA?_@CC?[Cg@?E?OBMBMFMJA@GHEJER?V?b@@BA`@EVKd@Uh@MRCBGJSXOJOLIDGBG@ODI@G@Y?S?Q?CA_@CYGGAu@QO?O@IBMFEBIHCFGLEPK`@MRMJOHQ@]?MASCA?_@ICAUCQ?S@_@DYFc@LIBGDCDCDCBADAD?D?HB`@Fp@?XEREHGFOHKFA?Q@_@?SCWCi@Kw@IY?I@I@GB?@KDGFCDGJCHCPAN?H@JBHDL@@P^NZHTBJ@J@HAJ?B?DCLEJEHGFMJYNg@VIHMNCFCHELGh@CVKtACRCZGb@A@ERELKPSVg@l@UVQTILGJGL?@ETAHAJ@J@NBLHRRh@DR@VARCNGREJGJGHIJMFQHSBU@U@}E@]@W@Q@SDMFOHQNWZGJML]ZSH_AXc@NQHUL_@Vg@Zc@Ra@LyARC@SDMDA?SHYPYRSPaAz@URo@ZQHqA`@i@NUD[@[As@MWAS@SDMFOJMPe@j@ONKHWJUDaAHeDRe@Di@Hi@Jc@Pg@Ve@Xe@ZWLOFA@MDQDUDYF{Ch@UDaFhAu@La@Bi@B[?o@AQ?M?]D]Ha@HEBUBQ@_@@Y?u@?e@DSFo@VwAl@a@RYHWFMBc@J]P[Ve@b@SNQJSHQFYB}@Hu@B]@c@CI?WCUCm@G_@Ea@C]@K?u@Ls@PiAVqAT_@F]Be@BYBSDKDUL[L_@Ns@LiAJu@J{@F{@@_@?e@Ac@@WBQBk@No@Vi@Z]V]Xq@f@_@XaAj@qAn@u@^{@b@i@Pg@D{ADqAD}@DcAH{@HMBg@Hi@HYDi@@W?WCe@E]Ew@KWCSA_@@e@Bg@Fc@Fg@F[Dm@F_AP}@L{@JaAJ}@HYBY@[?a@?a@Ca@Ee@Gw@Mi@KQE[GUAe@BI@KDUNYVa@Z_@T]H]Fa@?[?k@Ce@Cm@AYEUGQIIEIE[WIEOIWGKCM?M?M@YFg@Lw@PgAVmAT]HM@QASC_@Ka@Se@Uk@W]Mg@KSCa@Cg@Ao@?a@DSBq@Hu@N{@N]J]LYNWVa@b@c@f@m@j@YR[NQJQD[D[?S@K@OFKDGFKNEHEHABIZIh@GVGVGJKLKH[Re@Ro@\\u@b@OJ[RA@[Ze@f@e@j@k@p@KJKJCBWPg@Vg@Vg@TQLA@MNA@EHMPUb@CDIPINQ`@ELCDELELCLER?\\?`AB`@@RBNBHDJDFJFFFB@JFRFJDr@PfA^FBHFFFDHFNBL@HAPAFKh@E^@^@D@FHNFHHFFDXHdAPd@DTBj@FV@P?RAZE~@OTELENINKT]Xg@PWPWROHGTILCFAJ?H?L@D@F@JDHHTVNTHLPVh@v@Zd@Vf@HVFTD^Dj@Db@Hf@FZPb@NXZf@b@l@BDLJ@@JHBBJDPFJ@N@P@^CLCLAR@VD\\FTD^DX@r@Ax@Cr@Cb@CV?F?H?HBB?F@F@HDVNXPB@TNRHVDh@Jf@JVH\\Lv@d@t@`@l@\\x@d@r@d@v@h@NRDDJPDL@DDRBV?ZCVE^Gb@Ab@?HDNDJBFDBFDHBHBL@\\Ah@G|@IZC\\AL?L@VFNH\\Pj@Zj@Zd@Zn@b@JFLFNDLBZ@P?XCVATAV@B?J@PD^Db@HXBX?TAf@IlA[n@SPC\\Av@?v@?dA@X@F@D@?@F@B@DBBDBD@DBJ@P@\\@r@Ct@?h@CRAB?FCHCHCDMNOL_@NYF]DQ@g@@wA@sABkABQ@QDMDGFCBCDADAFAP@LDJBHHHVRl@`@`@XTPd@`@h@p@fAnAv@v@bA~@DDXVh@d@r@r@VXDJDL@F?D?F?@?FAFCJOd@M`@OZOZCBW^e@p@Yd@SX_@`@c@`@a@ZSHEBM@E@E?EAEAEACCCECEEG?KAG?E@EBGFKDEJKDAFCl@KRGNIDCBEBI@E@E?E?E?ECCACCECCECKEMAKAK@I@[H]LKD]NMLGFMXQl@YfA]nAQr@Q~@If@MZKVUZ[Vg@\\y@d@YTWLE@EBE?I@QCKCKEAAMMMOIOGMESEY?I?GBIBI@AN[PYHSDI@G@E?E@A?EAKAGAECECEGGOKMEOAI?G@I@OFCBCBUTOPSVW^YZQNGFYPULw@Xm@Pe@Ne@NUJYJWRKFGJGLCHCHCNCR?@AVCh@?h@ARAFAHEROl@SdAU|@Oj@GXALAL?F@N@NDf@Fh@Dd@D^BVBRFNFR"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 5.0133603,
+                        "lng" : -74.48218109999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.6 km",
+                        "value" : 650
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 146
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 5.0661761,
+                        "lng" : -74.5943776
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eCl. 2\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "cc|]~cgfMGJCH?HAZCh@CLAFEJEDCBKHOLCBEHCBMPGLCBKT?@Kf@Id@Gf@AFEp@AREb@EV?JAXBh@@V?FCDMNUZKRMf@E\\A@CPAFADWhAOZOb@[fAa@rA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 5.0643372,
+                        "lng" : -74.58895529999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 197
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 44
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 5.0677978,
+                        "lng" : -74.59365409999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eCra. 2\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "sn|]zehfMoBq@}By@e@Oo@U"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 5.0661761,
+                        "lng" : -74.5943776
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 185
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 53
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 5.0678089,
+                        "lng" : -74.5953205
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eCl. 4\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "wx|]hahfMCf@C`@Cd@?^?D?`AHbB?J?D"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 5.0677978,
+                        "lng" : -74.59365409999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            },
+            {
+               "distance" : 
+               {
+                  "text" : "130 km",
+                  "value" : 130258
+               },
+               "duration" : 
+               {
+                  "text" : "3 hours 18 mins",
+                  "value" : 11869
+               },
+               "end_address" : "Cra. 7 #11-28, La Candelaria, Bogotá, Cundinamarca, Colombia",
+               "end_location" : 
+               {
+                  "lat" : 4.5981508,
+                  "lng" : -74.0752162
+               },
+               "start_address" : "Guaduas, Cundinamarca, Colombia",
+               "start_location" : 
+               {
+                  "lat" : 5.0678089,
+                  "lng" : -74.5953205
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "79 m",
+                        "value" : 79
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 26
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 5.067952099999999,
+                        "lng" : -74.59601359999999
+                     },
+                     "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e on \u003cb\u003eCl. 4\u003c/b\u003e toward \u003cb\u003eCra. 5\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "yx|]vkhfM?FCb@EVIb@G`@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 5.0678089,
+                        "lng" : -74.5953205
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 115
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 50
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 5.066989,
+                        "lng" : -74.596385
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at the 1st cross street onto \u003cb\u003eCra. 5\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "uy|]`phfMz@Tb@L~Ad@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 5.067952099999999,
+                        "lng" : -74.59601359999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.9 km",
+                        "value" : 890
+                     },
+                     "duration" : 
+                     {
+                        "text" : "4 mins",
+                        "value" : 227
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 5.0643372,
+                        "lng" : -74.58895529999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eCl. 2\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "us|]jrhfMX{@J_@Z}@p@yBV_AT{@`@sAZgANc@N[ViA@E@GBQ@AD]Lg@JST[LOBE?GAWCi@@Y?KDWDc@@SDq@@GFg@He@Jg@?AJUBCFMLQBCDIBCNMJIBCDEDK@GBMBi@@[?IBIFK"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 5.066989,
+                        "lng" : -74.596385
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "30.2 km",
+                        "value" : 30168
+                     },
+                     "duration" : 
+                     {
+                        "text" : "59 mins",
+                        "value" : 3538
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 5.0130145,
+                        "lng" : -74.48117049999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eVilleta - Guaduas\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "cc|]~cgfMGSGOCSCWE_@Ee@Gi@Eg@AOAO?G@M@MFYNk@T}@ReANm@DS@I@G@S?i@Bi@@W?ABSBOBIBIFMFKJGVSXKTKd@Od@Ol@Qv@YTMXQFGPOX[V_@RWNQTUBCBCNGHAFAH?N@LDNJFFBDBD@D@F@J?DA@?DADAFEHIRQXOZA@CHCH?F?HDXDRFLHNLNLL@@JDJBPBHAD?DCDAVMXUx@e@f@]ZWT[JWL[Hg@P_APs@\\oAXgAPm@LYFGLM\\OJE\\MZIHAJAJ@L@JDDBBBBD@BBB?D?D?DADADCHCDEBOHSFm@JGBE@KJEDGJCFAD?D@F?JDFBDBDBBD@D@D@D?DALADCRI`@[b@a@^a@RYXe@d@q@V_@BCN[N[La@Ne@BK@G?G?A?G?EAGEMEKWYs@s@i@e@YWEEcA_Aw@w@gAoAi@q@e@a@UQa@Ym@a@WSIICIEKAM@Q@G@EBEBCFGLEPEPAjACrACvAAf@APA\\EXG^ONMLOBEBIBI?G@CBS?i@Bu@As@A]AQCKAECECEECCAGA?AEAGAYAeAAw@?w@?]@QBo@RmAZg@HU@Y?YCc@I_@EQEKAC?WAU@W@YBQ?[AMCOEMGKGo@c@e@[k@[k@[]QOIWGMAM?]@[B}@Hi@F]@MAICICGEECCGEKEO?I@c@Fc@D_@BW?[CWESAEEMKQEEOSw@i@s@e@y@e@m@]u@a@w@e@]MWIg@Ki@KWESIUOCAYQWOIEGAGAC?ICI?G?W?c@Bs@By@Bs@@YA_@EUE]GWESAM@MB_@BQAOAKAQGKECCKIAAMKCEc@m@[g@OYQc@G[Ig@Ec@Ek@E_@GUIWWg@[e@i@w@QWIMOUUWIIKEGAEAMAI?K?G@MBUHIFSNQVQVYf@U\\OJOHMDUD_AN[DS@Q?WAk@GUCe@EeAQYIGEIGGIIOAGAEA_@D_@Ji@@G@QAICMGOEIGGIGGCgA_@s@QKESGKGCAGGKGEGEKCICOASCa@?aA?]DSBMDMDMBEDMPa@HOHQBETc@LQDI@ALO@APMf@Uf@Wf@WVQBCJKJKj@q@d@k@d@g@Z[@AZSNKt@c@n@]d@SZSJIJMFKFWFWHi@H[@CDIDIJOFGJENGJARAZ?ZEPEPKZOXSl@k@b@g@`@c@VWXO\\M\\Kz@Ot@Op@IRC`@En@?f@@`@BRBf@J\\Lj@Vd@T`@R^JRBP@LA\\IlAUfAWv@Qf@MXGLAL?L?JBVFNHHDZVHDHDPHTFXDl@@d@Bj@BZ?`@?\\G\\I^U`@[XWTOJEHAd@CT@ZFPDh@Jv@Ld@F`@D`@B`@?Z?XAXC|@I`AKz@K|@M~@Ql@GZEf@Gb@Gf@Gd@C^AR@VBv@J\\Dd@DVBV?h@AXEh@If@ILCz@IbAI|@EpAEzAEf@Eh@Qz@c@t@_@pAo@`Ak@^Yp@g@\\Y\\Wh@[n@Wj@OPCVCb@Ad@@^?z@Az@Gt@KhAKr@M^OZMTMJEREXCd@C\\C^GpAUhAWr@Qt@MJ?\\A`@B^Dl@FTBVBH?b@B\\At@C|@IXCPGRIPKROd@c@ZW\\Qb@KLCVGXI`@SvAm@n@WRGd@Et@?X?^APATCDC`@I\\I\\EL?P?n@@Z?h@C`@Ct@M`FiATEzCi@XGTEPELE@ANGVMd@[d@Yf@Wb@Qh@Kh@Id@EdDS`AITEVKJINOd@k@LQNKLGRERAV@r@LZ@ZATEh@OpAa@PIn@[TS`A{@RQXSXQRI@?LEREBAxAS`@Mb@Sf@[^WTMPIb@O~@YRI\\[LMFKV[PONILGREPAVA\\A|EATATARCPILGHKFIFKDKFSBO@SAWESSi@ISCMAOAK@K@IDU?AFMFKHMPUTWf@m@RWJQDMDS@AFc@B[BSJuABWFi@DMBIBGLOHIf@WXOLKFGDIDKBM?E?C@KAIAKCKIUO[Q_@AAEMCIAK?I@OBQBIFKBEFGJE?AFCHAHAX?v@Hh@JVBRB^?PA@?JGNIFGDIDS?YGq@Ca@?I?E@E@EBCBEBEFEHCb@MXG^ERAP?TBB@^H@?RBL@\\?PANILKLSJa@DQFMBGHIDCLGHCNAN?t@PF@XF^BB@P?R?X?FAHANEFAFCHENMNKRYFKBCLSTi@Je@DW@a@AC?c@?WDSDKFI@ALKLGLCNCD?f@?ZBB?^B@?b@FB@r@JLDZJB@`@LFDhAl@f@X\\N@@TJVFRBpADVBPFPJRPNPLLNJRJRDNDL?R?XEVILMDGBIDMFO@CZy@HQHM@C@?HKHG@?HEJELCN?F?LDNFJH@@JLJVHh@DRHJFLPVFFJFLDJ@J@J?JANCDCJCLOLQJ_@B]?m@?S@KDQFMFIFGHEFCFA@?HAHAP@JBHBNBRJz@t@j@ZTDJBL@\\@\\AxBQRCFCBA@?PINMRUFGNM@ALIPMTIPGPEXCXARAL?\\?`@Dn@LdARTBT?NCVIRMx@{@BCPOHEBARGPAF?H@TFLFFBVTJFXNVFP@R?\\GBA@?XKBAPGNKLKJUBSBY@O@]@E?CF[@AFQJK@CVSBCROb@M@A`@M@?pAYrB[LGNGHGHIHON[HQFMLORQNKJGLGXG@?^KfCk@h@MbDw@`@I\\IXETE\\An@?R?b@@b@?b@?L?VAHADCHCDCBAFEDGBGBI@G?QCQCEAEECIEICGAC?IAM@]@Q@_ABE?c@?Q?Q?c@?m@?}@Bc@BI?aCN_@Aa@Ck@Ig@Iw@KUGc@Kc@O]Ma@QUIOCKCGAQC_@@o@?A?W?OA]Ck@IWEA?SAMBUDg@VOHIBMBQ@M?C?E?G?QASC_@GWG]OCAQOAAUWAAYY?AMKiBaAgB_A_@UKIGIIMGOAAGQACCIIWKWGOGIIKMK]QkBq@EAi@QGAg@SGCICECEGEEACEMEOCGGYCGu@aDi@yBCYAA?KAG?C?C?I@M@G?GDS?A@EJk@Ls@@I?A?K?IAICIAGCGCGA?CGEEMMIG[WOKCCMKKIIKQ]IOCGAEKQAAGMGGCEECKEKEQCQAI?K?_@@W@YBoALC@gAJ[DG?UBM?a@?]?YBS@UDKBGBYL_@PQLUPQNOPORINEDKNIFOHSHMDIBS@G@I?G?A?EAKAGAME[Ka@MKEIAG?M?Q@C@YDK@IAKAKEIEKGIIKOKQEMAGCGAO@K@KD[@Q@KA[EWY}@GUAIEe@?i@ASCIESAACEEIIKIIEEGEOGKEIAA?WEWCk@AM?oA?[@Q@SBUDoBd@a@Ju@RUDK@O@c@@U?M@a@BQ@SDKBq@ZQDE@IAKAGCKCKKQMCCW[MOIIUWKKMGIEEAGAI?I@E@E@KDIFOPABGHKLURGDMHQH]PA@uAn@_@NYJWBQB[@c@BgADO?M?OBIBIBIDIDIHGHABEFINCFO\\A?U\\ORCHABCJAJAH?^?NE^AFEHCFGDIBGBA?G@K@MAKCSOA?IK]m@S[?AWk@EICOAIA{@EWG[M]EIEIKOIKKIKGAA]Q}@_@_@OCAOGKGECMKGGEIEKAK?G?I@G@GFIJKTKNGFCXEDAdAMZI@?RGHGDCTONUL[JSLWV[?AbB{ABCLMFMBM@KAIEKISKYEKAG?I@I@GBGBEBGBADGLEvAQRCTKVMRMNONW^eAR[p@u@LQDM@MCQEMa@o@CECG?C?G@G@EDKHKFGFEJCZCrDA\\CRALCJGJELMLQNYvA{CLYBELQPS\\WPIXOXKZI`@GxDa@ZETGJEFEDGBGBM@M?OCm@?WBUNYPW|BuBd@e@HIDK@CBQB_@AYCSEOKKKGMCCAIAIAE@G@ODa@J]HSBA?Q?iBQOAc@EOACAOCKCECGEMMKO?CGOAAm@eCAIC[AQBQ?AJ_@DSBKAUAKEKOYCCGGKKKMGEMUg@sAIQGIKMi@s@EIEIAMACG}@GUIQQQYSaAi@mEuBs@UAAQIMIIMEIGUAK?K?G@C@IBKDOHOFILMLILMHIDKBK@G@SAMEKISYYOOMMCCGGOOc@a@IIQK[MOAYAA?U@YASCMEGEGEc@[WMECQCEAM@UBC@A?E@MHEDGFGFGPGNMTEFEDKFSFUBQ?SAOAWCY?[AO?OBQDIBmA\\QBM@K?I?GAICECECGIGKEMCOEQAI?MAUCo@@m@FaB?o@Aa@?CCWEOMSGIGIGEKEOG]IICkDq@A?GCGCGGCECGAK?M?KBMBGBGBA@ALEHALATBRDZDH?NEFCHEDEDGZk@HMHIJGLEPCLARDTFBBjBx@h@RNHFBDDDFBFJZB^?DFTBD@BNJF@J@PARENEHGLINSFKFSBO?C@QCQMYYg@GOCKAKAM?Q?QB]DY@ONqADc@B]AWAYCe@GS[q@a@s@KQc@q@EEEMKUGSAMCQ?SBSBGBCJOJILIBAB?RAX?b@B`@BT?V@VANAJCHCFEHIHQFO@K@O@C?[AG?AAEAEGMGIKIAAQGMGKCOGSMSO_@i@o@cAU[]Wy@e@AA[UCCEEIGEGi@o@OSIOGQ?ACMAW@K?K?ABOBEJa@BKFWTq@Pa@RW?ANKfAi@TQBEPYPe@HSx@yBPc@L]JYF]Bg@Ag@AKE_@AACm@Cc@?[?A?IB[D]?A@MBS?ADa@BQRo@@C^iAFS?A@c@?A?M@G@WDU?AJWJM^YNMPOHGNQP[FKFMHe@D]BU@MBUFa@Hg@Fg@Hy@Dc@@C@O?KAOCMSk@?AM_@g@wAk@}AQg@EUCS?AAS?S?[FQFSJSNSLQ^[n@[lAc@n@Sl@I^CBAF?RCRGPIVWVQ@AHKHIDET[JWRe@Pm@Nk@FQDKFKHKNOv@c@b@[JKJMNWX_@FE^U^Wt@e@^Q\\EJ?V?X?`@Af@In@UfA_@d@Md@KtC_@l@G`@Ah@@\\DXNXPXRPH@@\\HT@bDA^EfASRCNAT?RBd@BZ@XAPCNA~C{@JEHGFEFGFGBE@E@C?A@A?AAICIEMQY]c@gAcAQUCKCIAG@KBMDKBGLYNk@@CBG@CFKBGDGFK"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 5.0643372,
+                        "lng" : -74.58895529999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "77.8 km",
+                        "value" : 77824
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 hour 25 mins",
+                        "value" : 5129
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.7487597,
+                        "lng" : -74.1446371
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eSantafé de Bogotá (Puente el Cortijo) - Siberia - La Punta - El Vino - La Vega - Villeta\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eVilleta - La Vega\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eRoute 50\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eToll road\u003c/div\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "ibr]hbreMP]FMHOHQBE|@cBVo@DY@[?a@C[Kc@EQKSMWW]c@a@_@Us@Wa@I[G_@CKAkCCkCGa@C[EWIUKUMSOKIEEIKGICCM]K[AEIk@O}AAIAUE[Cc@WqCg@uFK_BAQDoA@k@Fu@@?Dc@Hy@Fw@?Y?IAKASEYCMESSe@OSYY?Aa@QSI[Km@Mu@KyAMm@I{Fi@m@GaAGO?M?M?I?q@@w@FE@cBRo@Ha@DA?o@FU@U@M@E?e@AE?]Ce@Iq@S_GaCSKSKaAa@_@Q_@Wi@a@EEcBsBECcAg@GEWISGOAa@ES?s@@iABc@@c@@a@@cABo@Ck@MOE_@MAAe@Ya@c@GGW[AA{CcGkB{DEM]iAKo@Eg@@{I?S?UAuFE{@Ii@Ok@]s@MSOSa@a@_@WmAk@oB_Am@WWIUGMCQAa@C_BGa@Cu@EIAYAa@KSGMGOIQMMKIKOYWi@e@}@Q]Q[_@s@_@m@IOU[IKgCqCWYIIe@m@GEOSMQ_@m@OWS_@sBsDS_@o@u@e@]q@]A?]QoAo@_EeBCA[MgAc@s@Wm@Og@IyIw@kBOs@Ai@Bm@LYJWJ_Bt@CBoAl@o@T_@HIBq@J{@D}@A_BGEAsAGsBKy@?a@BM@M@o@JMDMD{@Ra@H]Dq@HqBH{ABa@@A?{@Fo@DcANc@Fc@Da@FG@{K~Ac@H}@LG?c@@m@Ge@Mc@Q]WIIoDsDi@i@iAiAKKe@c@u@i@SK_@Qk@QYG[Gm@GcAAsHXaAEq@Kg@Mo@Wo@[YWYUA?sAeAYUoB{Am@i@_Aw@w@o@iIwGEC{BkBo@c@mA}@[Se@Wc@QYKCAUG]Ge@I]Ei@EM?E?OAm@Bo@Fg@Ji@Jo@R]HSFmD`AA?[F]@UAYEMEIEIIMKMOIWEOAS?G?SBQBKJ[RUHKJIXMbCaAHC^M`@M^MPGvAk@ROTQDEPSBGNSFQDQJc@Ba@?a@AYG[Qs@Me@CKGUaAqDW_AGc@?Q@MDMBKBKNY\\e@pAkAf@g@dA}@Ra@J_@Bi@Aa@CQIa@Y}@Ma@CKMq@Cc@@G@]He@Rc@N]z@kB^s@bA}BLc@JWHe@BOBSLs@Hc@DOBKHS@CDIFIFGFGNGJCXGHCf@IPELE\\KNGRKHILQFKBIDODg@DmB@a@?c@@Y?IAiB?a@B[Hg@Ha@LUJYRW`@c@~@{@JKLMlBiBTSDKDIDMBI@S?Q?SAWAUMuBAs@C]?O?A@a@@Q@KBM@MFQBIL_@LSFM@AFKHKFIn@q@j@q@X_@HKJOFM\\k@^{@^gANg@Da@Dc@@WA_@EYESKYo@uAkAwBY_@]i@a@a@q@{@GOEMCI?G?CAGAK?G@OBMLa@^qAJ[BGFYBGLi@@W?Y?SE[GWGQSi@CGM]IUEQACE]AY?G@SBQ@E\\kC?G@WEy@OaC?W@UDYFe@\\wA@GLc@hAsDTq@?Af@yA@G@Ah@_B@AZ}@Ne@z@cCL]@Ct@wBXy@p@eB`@cARg@bA_C^_ATm@J]DU@Q?SASQu@u@aCACs@aCKm@AKAI?I?K@K@GBK@EBEJMLOLIPGTKtA_@b@M^SRMVSZYp@q@XY@AnDmD|@{@`CeCr@q@~B_C@CFENM@??AVSJEJEVK\\KjASlBYBAzAUxAWfAOb@I`@IXK\\Q^YFGNQJITYJOd@m@\\c@JOBEDIFI?AN[LWBKHc@t@qEFa@?AV}ADY@S@E@WAWC[E[Ke@Qg@{AcEMa@ACEWG[A]?[D_@H]@EJYR_@j@}@tAsBx@iArBwC`AyA~@sAt@iA`@o@Ra@BEJ[Ja@DUD_@@OBc@@c@Ae@E[CQQy@AEI[Ic@Kg@Ms@AU?Q?O?MFe@Fg@D}@Cm@COGKGOIOCEMOm@c@m@a@WQCCc@c@KMEMEKGYAK?EAKBW?ADWBIDMJSLQFE^_@RQNKLGDCVGB?TCXEx@C@?`@@b@?d@?dAAH?XAB?b@C^ERGJEHGNMLMHOL]FQDQD]Fs@J{ADkA?OASAOEOM]]s@Uo@ISIUCS?GAE?YBYBQDQlAoDDQFMFOPYRQNKHGXMf@O^IfAOVEd@OJEZQd@c@d@e@DGNMRWLIh@_@@?rAw@r@_@l@]d@[f@]d@_@^YRSXW~AyAzBkBvBiBZWHGNOrAkAn@m@BAXURMPIVKlAYp@Ql@MVEb@EJAr@Cp@Cd@EHCJCVIj@Sr@_@t@c@ZQVMVK`@Wf@e@V[\\[r@e@ZQVGZI^EbC]nFs@TEZEHAd@Md@QPITSNQNSZe@^s@zAwC`@k@PSNOpAs@`@SPKJGTKv@a@NGPG@?r@K`@G^An@ChAGv@Kb@GdBSr@Mj@Ud@Yh@o@Xa@xAoBV[r@u@XSDEd@U|@k@r@u@LSNc@XaATy@N[JSDKHOb@g@VWXU\\Sb@QLEjAa@fAc@`@W\\c@NOnAiCDILS@E`@g@rB_C\\k@JWBKBOBS`@sFFg@JaANkAJ_AFi@Du@Hw@XmEBc@?ABk@AcCCaD?gA?q@De@DQBKJS@CHOLMFIf@a@?AXWPOzCuC\\Uf@Y|BcAf@Un@Wf@Sj@Ub@S@?^OZIlEeAz@W`@IVI`@Q@?LIXShA{@r@k@ZWLKh@]TKNGTEf@Gf@Gn@@r@A~@E^EPEHA^O^SZWXUf@e@pCeCd@_@XIJALCVAX@jARRDdBTZBV?TCRKNKTWJSFSDW@OD_ADSFOJKLORIJE\\IdBOJ?PKjBOjE_@lAK@?|@Kr@Mj@On@Sp@Y^QTM\\Q^S\\QrBiA|EgCFCRENGBAzAw@vBgAPGtBeA`CmAxAq@HCPI|@a@~A}@\\S\\S\\St@]RKHE~@c@TGhA_@zAa@h@S\\Kx@a@RMJKb@a@Zk@J]FWNy@JeBDi@Bc@^}DVoBZqBTqAHe@Ha@@C^mAJ_@HUBKDQHMVg@^s@X]V[h@q@rAuAdDcDjAkAXW@CRUx@iA`@i@p@_ArBsBxBkBxDuCfBeA`@[\\UFETM|@a@^QBCZM^O^Oz@c@`@Qb@[PQHKDKH[?ABK?A@Y?GAKEWIUIOUYMKQIIC[GMASAU@s@HmAPk@H}AVIBu@P]FaCf@sAXO@q@Hi@BS@S?]A]C[GYG]OGCUKGEGEUOGGg@k@EEMSACQUAAACQYMS]i@U]GKg@k@OIICCAE?OC[@_@DWJ}@h@WRYRC@OFGBI@M?GAKEIEMKEGCICU@WDODEJKZODAf@UtAc@fBk@h@OVEVCNAN?L@RBNBLFVLRL\\`@x@nAX\\ZXLLTHFBLFD@B?LD\\FP@FAN?^CVCr@MfAShAQTEtB_@\\IXGFAXKDC^Ql@_@JG\\UVOb@UTKHE^OZMBAbA[~Ao@xAk@~@m@z@e@p@YRIJANAL?T?J@@?NBFB@@FDHFDFDDLPDJBDFTHXHNJLBBLFHDPDP@B@H?B?L?NCZIf@Mz@WJE|@S@?TCp@A`@?@?b@B@?|A?z@@j@FNDHDPLJPBLBP?VAHG^WvAGb@CZ@ZBVJd@LXHNLNTRJFLFZNbAXjAX\\HZDP@R?N?RAJCPGf@YZWXSv@m@PQBENUJWFODYB_@Ek@G{@AG?U?]BQDMFWz@oBj@wAJ_@J]Dk@Be@AcA@iF?]@mBAwAA]Ko@Mg@Ue@KWO[w@oAkAmBa@q@Q_@EKUaAAWCc@CU?MEy@AMCc@AWK}@GYISCEi@sAw@mBGKISO]e@gAq@qAMSo@mA_@s@M]ES?MBSDUDMHMHILGHGRILCP?`B\\nARf@FZBp@Hl@F`@FLBJBFBJDNFJHFDLJHJDHHJHTFXDR@T@ZB`@@f@DRDPFRNVNRRNHDJFRF@?b@J~Cv@DB\\L`@PVPTPTTn@n@@@d@j@v@z@\\XFFRNHFf@Rl@PD@`@Fd@@b@@p@ErGc@jBORAb@ELCVCJCTGXKd@UVS\\YFIXYZ_@PU`@i@d@o@nAqAXY@AbBsBz@u@`@UTKPIBANGbA[JE^MLEJEJEJIJIHOBGDODM@K@K@O?G?IAMCK?AEMEKW]QQ{@{@OOGIKMGMCIEOCOAOAMBY@MBKFUFQVm@r@cBVm@Pg@DOBKBSBWBW@WF}@Ba@Bc@ZyELaBBYDYBQBEFOHQFKHILMLIFEFCJCNELCNANAf@@pA@\\@bA@l@@vBJ~CPt@@bADX?f@@@?`@?^Ab@AREPCRGPITMROZYXa@d@o@TUPQVSLKNGFEVIVEVAPAX?ZDZFXHf@NhAZTDXFTDHBN@T?RANCTGTI^ODELGTWLMPSP_@`@cAr@}ATk@N[N[HYFSBUD]?W@G?OBW@UBO?KBOBKDMFOn@qAHOFONu@P{@@GXsANu@F[Li@Nc@Rk@R]JQLQTWRSXWHGROBCt@g@HGl@a@PMrBuAtCkBLG^QVKzDgAbG_Bz@Y^QZYv@kAf@o@\\[^M\\Gd@?R@VHPJNPNPHLFTF`@?^CNITKJYRe@PUFgAV{A`@{Bj@gAZc@Ta@Z_@b@w@jBKTs@fBg@bAU`@s@`AQPk@t@m@t@gAtAGJU`@ELCJI^C\\?\\BVBTJ`@Vj@x@vAx@xAFJf@~@Vb@Z`ARv@L`AFjA@f@?f@EpCCjBHdAVz@^p@~@`AjApA~AbBvA`B`At@`@T\\RLFrCjA`C~@d@Nb@VZTR\\Vl@Lf@Dt@G~@i@`B[v@[`AY~@Od@?@M^O`@Sl@CRCV?XD`@Tl@PRPLPJ^J`@HZ?XE\\Mb@WT[@AL[?AFULy@`@iCVaBVi@RSPMXKb@KdAIbAE`AI\\GpAUpBu@bDiAlCs@r@O|@O|AWB?rD]hBQf@IPCLEZMDEHGHMZi@\\u@FQd@uA\\}@FOb@sAfAeDl@gBJ[`@iAN_@L[HQTYX[l@e@NODCNU@AHOHSFSD[Bc@?OAIAUQkAIg@CY?W@[DWFUTk@Ve@LYHSFUBMBQD}@B}@BYDSJc@VkAFWH_@Ng@Lc@JWPWNQLKRKRId@QJCNEPGDANEJEFCZUNQR]?APe@Vu@Tk@J[HS@EFWBOBc@Ac@EYESEOm@{AWm@a@_AQ]ACK]CGEUCW?a@@QD[@GJi@Ti@HMHMLKLO\\UZKVGLA\\@VDNDLHZRXVJFNL@@NF@@NDTDT@HAJA@?l@Ix@QXE\\CZDTF`@L^Rz@^|At@DBJD@@H@TB@?\\@VAZEXOFCRMv@}@f@c@NITKj@SPELCTEvBc@b@I^Cf@?\\DD?ZF?@RJB@XVlE`Eb@b@RLJDLFZFVBTATAPE^Mb@Md@IVAV@LDPBF@FBFDHHJLVZf@t@TXXPRHRDP@F?H?\\Eb@Mz@Ol@Iv@EbABX@x@Jj@J`@JZLPJVR\\\\rArApApAFHPNV\\LPHNPd@J^b@zAf@tA`@vARd@Zj@NXPP\\`@XVRJh@ZJFPHHDTH`@L`A\\tAb@fAb@B@B@XPB@ZTt@r@pArALL@@LNHHPVR\\@BJ`@DNBT@P@^?R?d@BhBBjADd@D\\FVHPLPXZLRr@v@n@n@n@n@\\Z@?LLB@FF@@nAx@zBrAnAv@lAz@j@f@JHLLLLJJLL@@ZZ`AdALPV\\^l@Tf@N^HZH\\@?BL@@F`@D\\@DJdA?vAG|@C`@Kj@?FQnAStBEX?H?T@XFTLT@@DF?@LLPLRL@BB@p@b@NJZT@@PJPJDBVH\\HXDV?L@d@ERCREB?p@QzAg@tBu@x@M^Ed@@d@BRBXDZLXLHDXN`Aj@t@d@B@\\Rp@^\\TlAt@|A~@z@h@NFBBTHLDN@H?@?LAB?NG@CPMLQDK?ADO@K?KAMAMEOKSIQIKKKSWAAAACEOQAAMMKICCw@s@QQQQGIWYCCOUAAGMGOCMAS@OBMDMDILOXW`Aw@`@_@JQJQHWBQBS?E?GASCMMi@Uo@Oe@o@yBQm@EOEUAO?OBQBMDOLOXSNGJAJAJ?J@VD@?VFHBPFND^Nt@VXDTDP?XA\\Gr@QnA]`@MtFcB`EoA~@Wl@[XSVYNYLg@Hg@Jk@l@eDf@iCH]P_@Xg@n@u@|BgCnAmATQTMd@K\\CP@RBZJNFBBJHLLFF~AlBTVb@^PHNFPFT@VALC@AJCNGJKPS`@m@x@aBzAmCJM@APMVO\\MRGXE^CL?`@@~Dx@rCj@XF\\DR@R?^ARCZArBOlEUr@Et@G`AE\\Cv@GrAOt@QlA_@dBk@nAc@^Mn@QbAUpA[~Ae@ZKh@Qz@Y\\OPMNQLSHUDY@K@YCYIa@cAkCYw@GQGMGQu@oBc@gAK_@Ca@@_@B[L]Va@t@aAr@{@rBaCBEjAwAf@m@T_@j@o@NSV[V[TYV[V[FGNQT[V[VYnB_C^[XU\\MRGRETCVCT?v@@~Np@x@DlGXv@@J@H?`@CtAGlCKp@CvEYxBIdACn@?h@@d@Dh@Ff@Hr@L`@H`@FdAR~@Rj@HZDR@P?VATERETGTGRITM`@a@PUJQP]Ng@BUDY?]AYM_Be@yDIu@Gs@A]?OBSDYL[LYHKVU\\YZSz@k@hCaB^UrBuAbAq@TQPQPQFQHQHa@D]@Y@SAYAQI{@Io@g@oEKcA?CGi@Gk@?i@?I?SD_@Je@La@Ti@Vi@hAoBrAwB@CnAiBnCkE|@wAFKDI~@{Ah@{@PYT]fAkBJQHOPWLUJQPUDIj@_AZg@FIHM|@sAv@kAn@cABE\\k@\\i@\\i@\\k@Xa@bA{Ad@k@d@m@v@_AlAwAX]PWN[NYdByDhAaCDGfDoFnB_DjBuCbBoCzE{H~AiCbCyDvCyExA}B|@yARYR[`EuG^k@xEuHXc@~A_CBGp@kAp@w@jAsAjAsAh@u@h@cAnAsC?Ah@kAj@gAHOJUxBiDZi@Zg@dBqC|GsK|GqKhDqFlDuFtF}IR]R[nEgHfDqFfBuCR]R]lD}Fr@gA^g@f@o@j@q@TYbBkBj@u@RYVk@tA{Cl@sAP_@r@mAlByCvAoBrA{BTi@FKPWxBoDtBcD?AnF{I|BqDf@w@t@gADE^_@B?@?@?BA@?@?@A@?@A@A@A@A@A?A@A?C@A?A?A@A?A?AAC?A?A?AAA?AA?@EPWT]R]T[R]T]DILQR]R]T]R]R]R[T]PY@CBElCoEpCkEl@cAn@_AVa@~@wAhBuCnAsBdAcBhAgB|@{AxBwDT]R]R]HOHMT[NWBEFI\\c@RYZWZW^U\\SPIl@Ut@SxD{@@Al@Op@QhBc@`@KFCxDgAf@MnA]fCq@zA_@f@KvBa@DA~@Ut@Q`@M^Ov@[FCrBaAf@Yj@]FEx@k@d@_@\\Y\\[v@{@r@y@V[X]n@_AbAwAh@y@R]T[pDoFrAsBT]JOvB_DFIFIzE}GhAaBnEkGlAeBbBmClByCvAuBJO`B}BXc@FIPW^i@Xa@zBaDh@u@RSPSHIjAsAvBaCV[V]Xm@Zm@x@_BDEh@eA\\o@Zi@FIpEyGvCiErB}CfA}AxAwBV_@dA}Af@o@p@aAvAwBbBeCj@{@LQXa@b@o@f@q@pB{CtAmB|@sAtAkBfA_BbAyAfA{ApAoBnC_EfAaB|@qAp@cAr@aArAyATYzA}AZ_@`@c@FQz@_BL[HQHQZo@DKj@eAt@iAh@y@V_@xBaDT[zEiH~BeDvEaHT]xG{JjAeBx@kAT[r@eA|@oApAmBxAwB@AfEoG|@oAz@mA|BiDp@aAJOl@aAnCaEj@w@pAiB~@sA~@sANWLUf@q@d@q@@CBCBE\\g@vBcDNUDE^k@t@iAj@{@bByBhAaBjEiG^i@T]\\i@X_@b@o@b@q@nC}DxCiEVa@LQBEPUDEx@gAf@o@RSX]TUVY^a@JKTU^]bAy@PMx@q@x@o@jAw@`Ak@BApAu@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 5.0130145,
+                        "lng" : -74.48117049999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "3.2 km",
+                        "value" : 3223
+                     },
+                     "duration" : 
+                     {
+                        "text" : "4 mins",
+                        "value" : 250
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.7268187,
+                        "lng" : -74.1257007
+                     },
+                     "html_instructions" : "Continue straight onto \u003cb\u003eBogotá-La Vega\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eEl Rosal-Bogotá\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eSantafé de Bogotá (Puente el Cortijo) - Siberia - La Punta - El Vino - La Vega - Villeta\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eRoute 50\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow Route 50\u003c/div\u003e",
+                     "maneuver" : "straight",
+                     "polyline" : 
+                     {
+                        "points" : "wn~[~jpcM\\SfAu@b@_@RSXYhBmBbCiCfByA~BoBNMvD}C^]lByAnCyBfByADCb@_@hB{AxAmA`CoBv@k@zAw@\\URMXO`BcAx@g@b@]`@]JQRSx@}@VY^_@^_@p@u@TWVUZWZYTQBCJIZU\\U`@]ZUXYhA_Af@a@p@i@v@o@h@e@^[TSZW?A^W|@u@TOTSPMPQNO\\Y|@s@ZWLMNKpAcA`A{@h@a@hAaAzAqAjA{@z@s@h@e@`@Y^[h@c@h@c@h@e@TSz@y@\\Uv@k@b@[XU\\Y^Sr@g@TSb@c@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.7487597,
+                        "lng" : -74.1446371
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "7.5 km",
+                        "value" : 7453
+                     },
+                     "duration" : 
+                     {
+                        "text" : "18 mins",
+                        "value" : 1088
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6817734,
+                        "lng" : -74.0775369
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eCl. 80\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "sez[rtlcMPQd@_@|@o@j@a@d@a@f@a@~AqArAgAbAw@`CmB`CoBfCyBp@g@FGNKlA}@x@i@d@Yd@YhAm@h@_@d@[`@Y`Ao@f@]ZSBA\\Sx@i@v@g@pAy@hAq@`@Wb@]dBiAHGPKp@c@t@c@RMPKdAo@bAq@^Ub@[tD{BdBiApBoAPKTODChAu@z@o@pAcAPOd@a@vAsAfAaAb@e@x@}@rAyAt@s@FGjAmAn@q@tByBTUpAuAhAmATUX]RSb@g@`BwCZk@Te@JUXo@L[P_@Pa@Pe@Ng@Re@Pg@N_@N_@La@L_@HUHSPi@Ng@DMDOPc@Pe@Tq@Vs@Xy@Xy@t@wBNe@Nc@Xy@BGRo@Xw@Xo@N]p@sAJQVc@BABCBGPUl@{@p@{@^c@|ByC|@kA|@kAz@iA~@qAb@m@f@w@PUJSPUx@qALSP_@PYf@cAZq@j@oAVm@d@aA`@_ANc@Nc@Tk@JWRg@n@sAHQZq@`@{@^y@d@cAL[DKRo@Pw@FYFWHUJWBKL[LYFKFOFKDKDEDIDKRa@PYj@iABIDIFMHMl@}@X_@DGPWVYLOTSz@_A|@}@hAaAjA{@nA_A^YZWbAq@x@o@lA}@NM~AkAv@k@XUZSxAgA|BcBb@]~AiAHIz@m@t@o@BALIbCkBJKLIzAgAp@g@hA{@l@c@RMNKhAq@XSrB{Al@c@LKJILKTQRMPMpAaApCyBFE@ALKnAaA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.7268187,
+                        "lng" : -74.1257007
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 121
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 17
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6807595,
+                        "lng" : -74.0779144
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eCra. 64\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "alq[rgccMHDB@B@F@d@Jf@Ld@Lf@NDBD@F?"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6817734,
+                        "lng" : -74.0775369
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.4 km",
+                        "value" : 435
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 46
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6772661,
+                        "lng" : -74.0762926
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eDg. 79b\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "weq[|iccMHADAFCJGzB{A^WbAm@^QbAa@RIn@Sp@Qf@Kd@Ih@Gh@GPAf@E"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6807595,
+                        "lng" : -74.0779144
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.8 km",
+                        "value" : 793
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 127
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6702705,
+                        "lng" : -74.0766591
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eTv. 56a\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "}op[x_ccMtBMrBMXCdAI~@EnBOfBGN?d@@z@J`@Hp@NPDZHpFpAPBNBt@BTAT?J?fAAvA?"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6772661,
+                        "lng" : -74.0762926
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.5 km",
+                        "value" : 541
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 71
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.665463,
+                        "lng" : -74.0761893
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eDg. 71 Bis\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "edo[bbccMN?J?rAA~ACb@AdAAvAAN?N?jBCZANAPCLAXG~@Ox@QxAUVEPANAH?J@XB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6702705,
+                        "lng" : -74.0766591
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 131
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 16
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6643145,
+                        "lng" : -74.0764669
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003eCra. 50\u003c/b\u003e",
+                     "maneuver" : "merge",
+                     "polyline" : 
+                     {
+                        "points" : "cfn[d_ccMn@JLBr@Jd@FlAR"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.665463,
+                        "lng" : -74.0761893
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 238
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 31
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.662266,
+                        "lng" : -74.07707599999999
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eAve Cra 30\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "}~m[|`ccMTD`@HTFF@XF`@H\\HtAVn@L`@HFBv@N"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6643145,
+                        "lng" : -74.0764669
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.3 km",
+                        "value" : 1282
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 129
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6508763,
+                        "lng" : -74.0784055
+                     },
+                     "html_instructions" : "Take the ramp on the \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eAv. Cdad. de Quito\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eAv NQS\u003c/b\u003e",
+                     "maneuver" : "ramp-left",
+                     "polyline" : 
+                     {
+                        "points" : "erm[vdccMb@BN?H?HALATEb@ILALCN?N?XATDf@HzB\\pB\\TBhBTB@`@D|AThAPJ@J@b@Dv@HvCPxAHzAHvAHxAHxAFzAFzAD|ADfADP?lADR@X@fADV@t@Dt@B"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.662266,
+                        "lng" : -74.07707599999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.7 km",
+                        "value" : 1664
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 142
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.635961099999999,
+                        "lng" : -74.07955059999999
+                     },
+                     "html_instructions" : "Continue straight to stay on \u003cb\u003eAv. Cdad. de Quito\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eAv NQS\u003c/b\u003e",
+                     "maneuver" : "straight",
+                     "polyline" : 
+                     {
+                        "points" : "_kk[`mccM~@B~@D~@D|@B~@D~@BnBHnBFvBHxADvADxBHjBF~BFhADbCHJ?rCJF?F@nBFnBH~AD`BFhCFhCFnDN~ADjAFD@B?B@DBP@v@@X@pDH"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6508763,
+                        "lng" : -74.0784055
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.0 km",
+                        "value" : 1023
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 131
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6270355,
+                        "lng" : -74.08123499999999
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003eAv. Cdad. de Quito\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eAv NQS\u003c/b\u003e",
+                     "maneuver" : "keep-left",
+                     "polyline" : 
+                     {
+                        "points" : "wmh[dtccMVApBBtCJXBr@Bt@DdAFf@Bb@@P?^?`A@|@Bd@@T@TBdAHN@n@Hv@Hj@FfBP~@J^DPAL?H@j@HhAPl@Nb@Jh@PFBxBz@LFb@RLFFDFDFBDBFDFB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.635961099999999,
+                        "lng" : -74.07955059999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.5 km",
+                        "value" : 1538
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 178
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6170689,
+                        "lng" : -74.07415279999999
+                     },
+                     "html_instructions" : "Exit onto \u003cb\u003eAv. El Dorado\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : 
+                     {
+                        "points" : "_vf[t~ccMRd@BH@F?FADADCFABA@CDEDGBC@E@C?C?E?E?C?EAEACCCACAACAAACAE?EAC?C?E?C@CBEBC@E?C@IFELIZSNIJGFClAq@h@Y@AfAq@HEFEPKvA}@\\Sx@i@p@e@h@]DEFCBCBAp@_@r@c@BABC\\SZUZSZS\\Sl@a@jAw@n@c@d@YPMRMXSXWTONIFGfEkC|AaAb@UNKvBqApAw@t@e@bAo@~@k@`@Wp@a@\\U"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6270355,
+                        "lng" : -74.08123499999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.0 km",
+                        "value" : 1036
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 92
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.609903099999999,
+                        "lng" : -74.06834409999999
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003eAv. El Dorado\u003c/b\u003e",
+                     "maneuver" : "keep-left",
+                     "polyline" : 
+                     {
+                        "points" : "uwd[lrbcMTUPMt@c@|E}C\\QLI\\SFCvA}@n@c@JGLIl@Ur@WzBaAxAu@\\URMh@_@RQ`A_A`@g@fAoAj@s@bAcAXY@CTULMl@{@^g@Vi@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6170689,
+                        "lng" : -74.07415279999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 116
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 38
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.608957699999999,
+                        "lng" : -74.068212
+                     },
+                     "html_instructions" : "Take the \u003cb\u003eCarrera 5\u003c/b\u003e exit",
+                     "maneuver" : "ramp-right",
+                     "polyline" : 
+                     {
+                        "points" : "{jc[bnacMXUJGFEJC?ADAD?FAF?D?D?F?NBD@FBLDHBH@F@BADA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.609903099999999,
+                        "lng" : -74.06834409999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.0 km",
+                        "value" : 1002
+                     },
+                     "duration" : 
+                     {
+                        "text" : "5 mins",
+                        "value" : 317
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6007732,
+                        "lng" : -74.07196960000002
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eCra. 5\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "_ec[hmacMJD@?JBNFl@XLFB?HDNFZJZL`Bp@bBp@|Ad@|Ad@rA^rA\\nA`@nA`@XH`@J^LVHHB^L`@LHBdCv@PHPHtAj@HDhAd@~@b@\\N@@\\N|@b@D@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.608957699999999,
+                        "lng" : -74.068212
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 100
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 42
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6000657,
+                        "lng" : -74.07252919999999
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eCra. 5 Bis\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "yqa[xdbcMJH~@p@~@r@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6007732,
+                        "lng" : -74.07196960000002
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "47 m",
+                        "value" : 47
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 26
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.6002952,
+                        "lng" : -74.0728829
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eCl 12c\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "mma[hhbcMEHOXABU\\"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6000657,
+                        "lng" : -74.07252919999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.3 km",
+                        "value" : 341
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 124
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.5976744,
+                        "lng" : -74.0744729
+                     },
+                     "html_instructions" : "\u003cb\u003eCl 12c\u003c/b\u003e turns \u003cb\u003eleft\u003c/b\u003e and becomes \u003cb\u003eCra. 6\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "{na[njbcMtDlBz@d@RJHF|@b@DBxDlB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.6002952,
+                        "lng" : -74.0728829
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 98
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 34
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 4.5981508,
+                        "lng" : -74.0752162
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eCl. 11\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "m~`[ltbcM{@zAQ\\QZ"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 4.5976744,
+                        "lng" : -74.0744729
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : 
+         {
+            "points" : "oq_b@tk_}LdZphBoWt]kqBfx@}Qd^mo@kDw]wKig@fQue@xs@`hCd}Ff_AfnCjk@xrAztBfqDbmAraAfZ|{@pnAfWnpAlxBxwBdWlwAjwAbaBry@zoAvaBbn@fkA`v@vIzs@aZhaAtXtvDbv@hvCdx@`wDrxChcBjwBfIxXif@~KaStr@ph@pLpbBtYxsAnhAde@d_AfkA`kAduBl`ArgA~zBrfAdmAhEpy@ryAl}@vdAjiCbjD~dDvlD|lC`nB~p@bxBDtcDtb@xkAnFrdAzQlp@qNxf@pYhfBfmAhbF`tH~vAbrDxsB`v@~rC|p@ps@bqAjcAhv@lKfbA~a@|qBpz@bb@heA~kD~o@`sDnzAraCrbFbtEp|A~eAvbBrgCz~@|oAd`@fqB`_@xbBbj@bu@p[ngD|yCfwArcFb~BjzBlq@zxCvXf{Grm@fjI|t@jrGtm@dfAzk@j~@~bAzlF`a@diBygA|KaQzZpMdIsG{kAn]c{BhoBe~DbxB{mCu}Aul@si@uk@jmAipA|eBehArs@qzCvjCqxGduJapBvaBglBf{CujDteGofA|BgWzs@_gAzOs}@r[zDvg@}m@gXwa@_y@ulB_q@mq@t}A{m@`RmD_Oq]_l@dW}k@w{@zr@iz@dJoD|l@q{@vIc^oM~QjuAw_BiFbM`QpR|Bcn@`i@_s@l{@}iAt^es@jhAy`Adu@{{A|y@_Zjd@{RxgBon@rr@qSppAq]pdB_Nzw@foA`[x~BpLls@fiAr{Afg@nVpw@kb@pRu`@xg@gIrlA}Jtl@jp@~i@mIx\\oZp]lFdRb[mIl_A|El{@`o@mItKee@rKi_APsg@ti@crBdt@{qChZ}r@xVtGz[pnAtg@pP`g@{f@`k@qTvg@`Tsj@jf@ag@eIg\\qHeKqoAog@a@s_@~u@aUpoC}YvnBsu@rh@mg@baA@fc@aNrAkJov@{n@}_AoEgZdLcC_Xh\\y`@jCw[ao@of@`Noj@zBmtAhlA_x@mb@yx@utAyc@{|@wlAcoB{CwxAkb@rX_aA`XwgBtPisAt{@{w@|DygApTce@zqCqaBhy@qtApfAe]nlAgmAlk@ef@s^O_DwMts@gEfg@dLuM}uArk@fYlg@{b@jm@af@~a@yd@vl@}Xy]|a@fh@zuAtaAu_A~Kes@xl@_Hny@p\\rqAh}AbPeAdg@{c@vkAsZdt@_aArhApB`Sid@nl@myAduE{pHleBwsAxxBw`DfrFozGvuD_vCblBkcDvqAqw@j|AW`dF`[jhBejArkApe@"
+         },
+         "summary" : "Villapinzon-Tunja and Briceño - Tunja - Sogamoso",
+         "warnings" : [],
+         "waypoint_order" : 
+         [
+            0,
+            1
+         ]
+      }
+   ],
+   "status" : "OK"
+}
