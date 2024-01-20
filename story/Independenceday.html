@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- Source: Taken and modified from the simple map project 
+<!-- Template: https://github.com/FlemingGeom/googlemaps-shawnmflemingc -->
+<!-- Assignment 1 of GEOM99- Web GIS Development course -->
+<!-- Geographic Information Systems - Applications Specialist Program -->
+<!-- Edited by Laura Jaimes -->
+<!-- URL: https://geolaurajaimes.github.io/geom99lab1/story/Independenceday.html -->
+
+<html>
+  <head>
+    <title> Colombian Independence </title>
+    <!-- Polyfill.io for browser functionality -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <style>
+      /* ID for div map height. */
+        #map {
+          height: 50%;
+        }
+
+        /* Optional: Makes the sample page fill the window. */
+        html,
+        body {
+          height: 100%;
+          margin: 0;
+          padding: 0;
+        }
+    </style>
+
+    <!-- Funtion start -->
+    <script>
+      let map;
+      function initMap() {
+        <!-- Interest places start -->
+        map = new google.maps.Map(document.getElementById("map"), {
+          center: { lat: 7.067783196008482, lng: -73.1694421676519 },
+          zoom: 19,
+        });
+        <!-- Interest places end -->
+      }
+    </script>
+          <!-- Funtion end -->
+    
+  </head>
+  
+  <body>
+    <div id="map"></div>
+    <div id="story">
+    <h1>Colombia Independence Journey</h1>
+        <h2>1781 - Revolt of the Communards:</h2>
+        <p>The Comuneros rose up against the oppressive tax policies and other unpopular measures implemented by the Spanish colonial. The most prominent leader of the Comuneros was Juan Francisco Berbeo administration.
+        <br>Place: Guaduas, Cundinamarca</p>
+        <h2>1810 - The Exclamation of Independence:</h2>
+        <p>A discontent between Creoles and the representatives of the Spanish crown led to the Creole leaders expressing their discontent and declaring their intention to form an independent government.
+        <br>Place: Museo de la Independencia - Casa del Florero, Bogota</p>
+        <h2>1817 - Policarpa Salavarrieta is Executed:</h2>
+        "Indolent people, I woman, perish for having wanted to set you free."
+        <br>Place: La Pola - Policarpa Salavarrieta Monument, Bogota</p>
+        <h2>1819 - Boyaca's Battle:</h2>
+        The independence army strategically surprised the Spanish, achieving victory at Pantano de Vargas, Boyaca. Simon Bolivar's leadership played a crucial role.
+  </div>
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <!-- Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w&callback=initMap&v=weekly" async>
+    </script>
+  </body>
+</html>
