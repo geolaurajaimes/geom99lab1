@@ -28,13 +28,37 @@
 
     <!-- Funtion start -->
     <script>
-      let map;
-      function initMap() {
-        <!-- Interest places start -->
-        map = new google.maps.Map(document.getElementById("map"), {
-          center: { lat: 7.067783196008482, lng: -73.1694421676519 },
-          zoom: 19,
-        });
+		let map;
+			function initMap() {
+			<!-- Interest places start -->
+				const map = new google.maps.Map(document.getElementById("map"), {
+					center: { lat: 4.5964, lng: -74.0839 },
+					zoom: 6,
+				});
+
+				const markerGuaduas = new google.maps.Marker({
+					position: { lat: 5.0679, lng: -74.5938 }, 
+					map: map,
+					title: "Guaduas"
+				});
+
+				const markerBogota = new google.maps.Marker({
+					position: { lat: 4.710989, lng: -74.072092 }, 
+					map: map,
+					title: "Bogota"
+				});
+
+				const markerLaPola = new google.maps.Marker({
+					position: { lat: 4.6031, lng: -74.0680 }, 
+					map: map,
+					title: "La Pola Monument"
+				});
+
+				const markerPantanoDeVargas = new google.maps.Marker({
+					position: { lat: 5.5500, lng: -73.349998 },
+					map: map,
+					title: "Pantano de Vargas"
+				});
         <!-- Interest places end -->
       }
     </script>
@@ -45,22 +69,27 @@
   <body>
     <div id="map"></div>
     <div id="story">
-    <h1>Colombia Independence Journey</h1>
-        <h2>1781 - Revolt of the Communards:</h2>
-        <p>The Comuneros rose up against the oppressive tax policies and other unpopular measures implemented by the Spanish colonial. The most prominent leader of the Comuneros was Juan Francisco Berbeo administration.
-        <br>Place: Guaduas, Cundinamarca</p>
-        <h2>1810 - The Exclamation of Independence:</h2>
-        <p>A discontent between Creoles and the representatives of the Spanish crown led to the Creole leaders expressing their discontent and declaring their intention to form an independent government.
-        <br>Place: Museo de la Independencia - Casa del Florero, Bogota</p>
-        <h2>1817 - Policarpa Salavarrieta is Executed:</h2>
-        "Indolent people, I woman, perish for having wanted to set you free."
-        <br>Place: La Pola - Policarpa Salavarrieta Monument, Bogota</p>
-        <h2>1819 - Boyaca's Battle:</h2>
-        The independence army strategically surprised the Spanish, achieving victory at Pantano de Vargas, Boyaca. Simon Bolivar's leadership played a crucial role.
-  </div>
+		<h1>Colombia Independence Journey</h1>
+			<h2>1781 - Revolt of the Communards:</h2>
+			<p>The Comuneros rose up against the oppressive tax policies and other unpopular measures implemented by the Spanish colonial. The most prominent leader of the Comuneros was Juan Francisco Berbeo administration.
+			<br>Place: Guaduas, Cundinamarca</p>
+			
+			<h2>1810 - The Exclamation of Independence:</h2>
+			<p>A discontent between Creoles and the representatives of the Spanish crown led to the Creole leaders expressing their discontent and declaring their intention to form an independent government.
+			<br>Place: Museo de la Independencia - Casa del Florero, Bogota</p>
+			
+			<h2>1817 - Policarpa Salavarrieta is Executed:</h2>
+			<p>"Indolent people, I woman, perish for having wanted to set you free." by La Pola</p>
+			<br>Place: La Pola - Policarpa Salavarrieta Monument, Bogota</p>
+			
+			<h2>1819 - Boyaca's Battle:</h2>
+			<p>The independence army strategically surprised the Spanish, achieving victory at Pantano de Vargas, Boyaca. Simon Bolivar's leadership played a crucial role.<p>
+	</div>
+	
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
     <!-- Google Maps API -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w&callback=initMap&v=weekly" async>
     </script>
+	
   </body>
 </html>
