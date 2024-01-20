@@ -33,13 +33,17 @@
 			<!-- Interest places start -->
 				const map = new google.maps.Map(document.getElementById("map"), {
 					center: { lat: 4.5964, lng: -74.0839 },
-					zoom: 6,
+					zoom: 9,
 				});
 
 				const markerGuaduas = new google.maps.Marker({
-					position: { lat: 5.0679, lng: -74.5938 }, 
+					position: { lat: 5.0679, lng: -74.5938 },
 					map: map,
-					title: "Guaduas"
+					title: "Guaduas",
+					label: {
+						text: "1781",
+						color: "white",
+					},
 				});
 
 				const markerBogota = new google.maps.Marker({
