@@ -5,6 +5,7 @@
 <!-- Geographic Information Systems - Applications Specialist Program -->
 <!-- Edited by Laura Jaimes -->
 <!-- URL: https://geolaurajaimes.github.io/geom99lab1/story/Independenceday.html -->
+<!-- Github Repository html location: https://github.com/geolaurajaimes/geom99lab1/blob/main/story/Independenceday.html -->
 
 <html>
   <head>
@@ -14,15 +15,31 @@
     <style>
         /* ID for div map height. */
 		#map {
-		  height: 50%;
+			height: 70%;
 		}
 
 		/* Optional: Makes the sample page fill the window. */
 		html,
 		body {
-		  height: 100%;
-		  margin: 0;
-		  padding: 0;
+			font-family: 'Century Gothic', sans-serif;
+			height: 100%;
+			margin: 0;
+			padding: 0;
+		}
+		
+		/* ID for div story. */
+		#story {
+			padding: 20px;
+			margin: 10px;
+			background-color: #f0f0f0;
+		}
+		
+		/* ID for div references */
+		#references {
+			padding: 20px;
+			margin: 10px;
+			font-size: 10px;
+			background-color: #f0f0f0;
 		}
 		
     </style>
@@ -34,16 +51,17 @@
 			<!-- Interest places start -->
 				const map = new google.maps.Map(document.getElementById("map"), {
 					center: { "lat": 5.1433, "lng": -74.1523 },
-					zoom: 9,
+					zoom: 8,
 				});
 
 				const markerGuaduas = new google.maps.Marker({
 					position: { lat: 5.0679, lng: -74.5938 },
 					map: map,
-					title: "Guaduas - Revolt of the Communards",
+					title: "Guaduas - Revolt of the Comuneros",
 					label: {
 						text: "1",
 						color: "#ffffff",
+						animation: google.maps.Animation.DROP,
 					},
 				});
 
@@ -54,6 +72,7 @@
 					label: {
 						text: "2",
 						color: "#ffffff",
+						animation: google.maps.Animation.DROP,
 					},
 				});
 
@@ -64,6 +83,7 @@
 					label: {
 						text: "3",
 						color: "#ffffff",
+						animation: google.maps.Animation.DROP,
 					},
 				});
 
@@ -74,6 +94,7 @@
 					label: {
 						text: "4",
 						color: "#ffffff",
+						animation: google.maps.Animation.DROP,
 					},
 				});
         <!-- Interest places end -->
@@ -87,7 +108,7 @@
     <div id="map"></div>
     <div id="story">
 		<h1>Colombia Independence Journey</h1>
-			<h2>1781 - Revolt of the Communards:</h2>
+			<h2>1781 - Revolt of the Comuneros:</h2>
 			<p>The Comuneros rose up against the oppressive tax policies and other unpopular measures implemented by the Spanish colonial. The most prominent leader of the Comuneros was Juan Francisco Berbeo administration.
 			<br>Place: Guaduas, Cundinamarca</p>
 			
@@ -96,13 +117,13 @@
 			<br>Place: Museo de la Independencia - Casa del Florero, Bogota</p>
 			
 			<h2>1817 - Policarpa Salavarrieta is Executed:</h2>
-			<p>"Indolent people, I woman, perish for having wanted to set you free." by La Pola</p>
+			<p>"Indolent people, I woman, perish for having wanted to set you free." by La Pola
 			<br>Place: La Pola - Policarpa Salavarrieta Monument, Bogota</p>
 			
 			<h2>1819 - Boyaca's Battle:</h2>
 			<p>The independence army strategically surprised the Spanish, achieving victory at Pantano de Vargas, Boyaca. Simon Bolivar's leadership played a crucial role.<p>
 	</div>
-	<div>
+	<div id="references">
 		<h2> Documentation References </h2>
 		<h3>Marker label</h3> 
 		<p>Make markers clickable and accessible (Set descriptive text): <a href="https://developers.google.com/maps/documentation/javascript/advanced-markers/accessible-markers" target="_blank">here</a></p>
@@ -110,8 +131,11 @@
 		<p> allows a user to find a place based upon its address: <a href="https://developers.google.com/maps/documentation/javascript/examples/places-placeid-finder" target="_blank">here</a></p>
 		<h3>Zoom</h3> 
 		<p>Showing Pixel and Tile Coordinates: <a href="https://developers.google.com/maps/documentation/javascript/examples/map-coordinates" target="_blank">here</a></p>
+		<p>Getting Properties With Event Handlers: <a href="https://developers.google.com/maps/documentation/javascript/examples/event-properties" target="_blank">here</a></p>
 		<h3>Getting Lat/Lng from a Click Event</h3> 
-		<p>Gets the latitude and longitude coordinates of the click: <a href="https://developers.google.com/maps/documentation/javascript/examples/event-click-latlng" target="_blank">here</a></p>
+		<p>Gets the latitude and longitude coordinates: <a href="https://developers.google.com/maps/documentation/javascript/examples/event-click-latlng" target="_blank">here</a></p>
+		<h3>Marker Animations</h3> 
+		<p>DROP animation.: <a href="https://developers.google.com/maps/documentation/javascript/examples/marker-animations" target="_blank">here</a></p>
 	
 	</div>
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
