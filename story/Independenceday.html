@@ -12,7 +12,10 @@
     <title> Colombian Independence </title>
     <!-- Polyfill.io for browser functionality -->
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <style>
+    <!-- Responsive Web Design -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style>
         /* ID for div map height. */
 		#map {
 			height: 70%;
@@ -29,6 +32,7 @@
 		
 		/* ID for div story. */
 		#story {
+			position: relative;
 			padding: 20px;
 			margin: 10px;
 		}
@@ -44,23 +48,29 @@
 			z-index: -1;
 		}
 		
-		/* ID for div references and disclaimer */
-		#references {
-			padding: 20px;
-			margin: 10px;
-			font-size: 10px;
-			background-color: #f0f0f0cc;
-			column-count: 2;
-			column-gap: 20px;
-		}
-		
-				/* ID for div references and disclaimer */
+		/* ID for div disclaimer */
 		#disclaimer {
 			padding: 20px;
 			margin: 10px;
 			font-size: 10px;
 			background-color: #f0f0f0cc;
 		}
+		
+		/* ID for div references */
+		#references {
+			padding: 20px;
+			margin: 10px;
+			font-size: 10px;
+			background-color: #f0f0f0cc;
+		}
+		
+		/* ID for div ref */
+		#ref {
+			column-count: 2;
+			column-gap: 20px;
+		}
+		
+
 		
     </style>
 
@@ -142,27 +152,30 @@
 				<br>Place: La Pola - Policarpa Salavarrieta Monument, Bogota</p>
 			
 			<h2>1819 - Boyaca's Battle:</h2>
-				<p>The 	ndependence army strategically surprised the Spanish, achieving victory at Pantano de Vargas, Boyaca. Simon Bolivar's leadership played a crucial role.<p>
+				<p>The independence army strategically surprised the Spanish, achieving victory at Pantano de Vargas, Boyaca. Simon Bolivar's leadership played a crucial role.<p>
+	</div>
+
+	<div>
+	<p id="disclaimer">The content was not taken from any source, but what I know about the history of my country Colombia, there could be historical impressions, the objective of this page is to fulfill the objectives of my GEOM99 task - Web GIS Development: Create a custom map to tell your story</p>
 	</div>
 
 	<div id="references">
 		<h2> Documentation References </h2>
-		<h3>Marker label</h3> 
-		<p>Make markers clickable and accessible (Set descriptive text): <a href="https://developers.google.com/maps/documentation/javascript/advanced-markers/accessible-markers" target="_blank">here</a></p>
-		<h3>Place ID Finder</h3> 
-		<p> allows a user to find a place based upon its address: <a href="https://developers.google.com/maps/documentation/javascript/examples/places-placeid-finder" target="_blank">here</a></p>
-		<h3>Zoom</h3> 
-		<p>Showing Pixel and Tile Coordinates: <a href="https://developers.google.com/maps/documentation/javascript/examples/map-coordinates" target="_blank">here</a></p>
-		<p>Getting Properties With Event Handlers: <a href="https://developers.google.com/maps/documentation/javascript/examples/event-properties" target="_blank">here</a></p>
-		<h3>Getting Lat/Lng from a Click Event</h3> 
-		<p>Gets the latitude and longitude coordinates: <a href="https://developers.google.com/maps/documentation/javascript/examples/event-click-latlng" target="_blank">here</a></p>
-		<h3>Marker Animations</h3> 
-		<p>Bounce and drop animation.: <a href="https://developers.google.com/maps/documentation/javascript/examples/marker-animations" target="_blank">here</a></p>
-	
+		<div id="ref">
+			<h3>Marker label</h3> 
+				<p>Make markers clickable and accessible (Set descriptive text): <a href="https://developers.google.com/maps/documentation/javascript/advanced-markers/accessible-markers" target="_blank">here</a></p>
+			<h3>Zoom</h3> 
+				<p>Showing Pixel and Tile Coordinates: <a href="https://developers.google.com/maps/documentation/javascript/examples/map-coordinates" target="_blank">here</a></p>
+				<p>Getting Properties With Event Handlers: <a href="https://developers.google.com/maps/documentation/javascript/examples/event-properties" target="_blank">here</a></p>
+			<h3>Place ID Finder</h3> 
+				<p> allows a user to find a place based upon its address: <a href="https://developers.google.com/maps/documentation/javascript/examples/places-placeid-finder" target="_blank">here</a></p>
+			<h3>Getting Lat/Lng from a Click Event</h3> 
+				<p>Gets the latitude and longitude coordinates: <a href="https://developers.google.com/maps/documentation/javascript/examples/event-click-latlng" target="_blank">here</a></p>
+			<h3>Marker Animations</h3> 
+				<p>Bounce and drop animation.: <a href="https://developers.google.com/maps/documentation/javascript/examples/marker-animations" target="_blank">here</a></p>
+		</div>
 	</div>
-	<div>
-	<p id="disclaimer">The content was not taken from any source, but what I know about the history of my country Colombia, there could be historical impressions, the objective of this page is to fulfill the objectives of my GEOM99 task - Web GIS Development: Create a custom map to tell your story</p>
-	</div>
+
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
     <!-- Google Maps API -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w&callback=initMap&v=weekly" async>
